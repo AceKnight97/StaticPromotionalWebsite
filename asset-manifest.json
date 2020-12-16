@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trietreactproject3/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/trietreactproject3/static/js/main.6976eabf.chunk.js",
-    "main.js.map": "/trietreactproject3/static/js/main.6976eabf.chunk.js.map",
+    "main.js": "/trietreactproject3/static/js/main.c101f9be.chunk.js",
+    "main.js.map": "/trietreactproject3/static/js/main.c101f9be.chunk.js.map",
     "runtime-main.js": "/trietreactproject3/static/js/runtime-main.8954b90b.js",
     "runtime-main.js.map": "/trietreactproject3/static/js/runtime-main.8954b90b.js.map",
     "static/js/2.7599c84a.chunk.js": "/trietreactproject3/static/js/2.7599c84a.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.8954b90b.js",
     "static/js/2.7599c84a.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.6976eabf.chunk.js"
+    "static/js/main.c101f9be.chunk.js"
   ]
 }
