@@ -8,11 +8,6 @@ class Main extends React.Component {
   render() {
     return (
       <>
-        <div>
-          <span>
-            ABC
-          </span>
-        </div>
         <Router>
           <Switch>
             <Route path="/sign-in" name="Sign In" component={SignIn} />
@@ -23,11 +18,6 @@ class Main extends React.Component {
             </div>
           </Switch>
         </Router>
-        <div>
-          <span>
-            ABC
-          </span>
-        </div>
       </>
     );
   }

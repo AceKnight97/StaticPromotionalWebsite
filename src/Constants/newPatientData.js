@@ -1,4 +1,3 @@
-
 export const StepData = [
   {
     title: 'General information',
