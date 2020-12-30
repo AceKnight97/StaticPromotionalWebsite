@@ -1,0 +1,16 @@
+@import "./Layout/index";
+.appointment-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: $size-24;
+  overflow: auto;
+  .ant-row {
+    // height: 100%;
+    // overflow: hidden; */
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .min-w-270 {
+    min-width: $size-294;
+  }
+}

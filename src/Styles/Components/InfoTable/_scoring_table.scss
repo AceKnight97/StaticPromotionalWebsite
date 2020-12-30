@@ -1,0 +1,28 @@
+.scoring-table {
+    .ant-table-row {
+        .scoring-table-row-edit-button {
+            display: none;
+        }
+    }
+    .ant-table-row:hover {
+        .scoring-table-row-edit-button {
+            display: flex;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    .scoring-table-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: $size-84;
+        position: relative;
+    }
+    .ant-table-tbody > tr > td {
+        height: 65px;
+    }
+    .ant-table-cell {
+        white-space: break-spaces;
+    }
+}

@@ -1,0 +1,54 @@
+.medical-test-result {
+    &-main {
+        height: 100%;
+        overflow: hidden;
+        .ant-tabs-nav {
+            height: 100%;
+            margin-top: $size-16;
+            padding: 0;
+        }
+        .ant-tabs {
+            width: 100%;
+        }
+        .ant-tabs-tab-active {
+            background: $blue-1;
+            span {
+                text-shadow: none;
+            }
+        }
+        .ant-tabs-tabpane {
+            padding: 0 !important;
+        }
+        .ant-empty {
+            margin-top: $size-56;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .ant-empty-image {
+            height: $size-180;
+        }
+        .content-wrapper {
+            width: 100%;
+            padding: $size-24;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .add-new-test-result,
+            .edit-test-result {
+                width: calc(500% / 9);
+            }
+        }
+    }
+    &-menu {
+        width: $size-200;
+        padding-top: $size-16;
+        .ant-menu {
+            height: 100%;
+        }
+    }
+}

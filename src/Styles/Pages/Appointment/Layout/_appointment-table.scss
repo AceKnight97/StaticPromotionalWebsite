@@ -1,0 +1,14 @@
+.appointment-table-wrapper {
+  margin-top: $size-24;
+  .ant-table-row {
+    cursor: inherit !important;
+  }
+  .normal-cell-wrapper {
+    cursor: inherit;
+  }
+  .pointer {
+    span {
+      cursor: pointer !important;
+    }
+  }
+}

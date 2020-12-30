@@ -1,0 +1,11 @@
+.md-report-settings-wrapper {
+  .md-report-settings-main {
+    width: calc(500% / 7);
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    background-color: white;
+    padding: $size-24 $size-12;
+  }
+}

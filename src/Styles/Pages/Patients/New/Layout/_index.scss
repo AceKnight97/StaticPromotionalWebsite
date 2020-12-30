@@ -1,0 +1,7 @@
+.new-assigned-body-wrapper,
+.new-resigtered-body-wrapper {
+  width: 100%;
+  overflow: auto;
+  padding: $size-24;
+  height: calc(100% - 3.5rem);
+}

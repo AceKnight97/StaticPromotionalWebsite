@@ -1,0 +1,40 @@
+.input-baseline-info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  &-header {
+    padding: $size-14 $size-28 0 $size-24;
+    .close-button {
+      outline: none;
+      box-shadow: none;
+      border: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .close-button:hover {
+      color: unset !important;
+    }
+    .step {
+      color: $gray-8;
+    }
+  }
+  &-content {
+    overflow: auto;
+    padding: $size-24 0;
+    align-items: center;
+    flex: 1;
+  }
+  .input-baseline-show-steps {
+    display: flex;
+    flex-direction: column;
+    width: calc(500% / 9);
+    flex: 1;
+    .midle-ct {
+      flex: 1;
+    }
+  }
+}
