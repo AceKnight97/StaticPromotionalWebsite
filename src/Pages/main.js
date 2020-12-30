@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './NotFound';
 import PrivateRoute from './PrivateRoute';
+import Greeting from './Greeting';
 
 const SignIn = () => <div><span>Sign In</span></div>;
 
@@ -13,6 +14,7 @@ class Main extends React.Component {
         <Router>
           <Switch>
             <Route path="/sign-in" name="Sign In" component={SignIn} />
+            <Route path="/greeting" name="Greeting" component={Greeting} />
             <PrivateRoute path="/" name="full" component={NotFound} />
             <Route path="*" name="notFound" component={NotFound} />
           </Switch>

@@ -20,6 +20,7 @@
     "react/destructuring-assignment": 0,
     "react/sort-comp": 0,
     "no-eval": 1,
+    "react/jsx-props-no-spreading": "off",
     "no-const-assign": "warn",
     "react/no-did-mount-set-state": 0,
     "no-this-before-super": "warn",

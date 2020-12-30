@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 export const useMergeState = (initialState) => {
   const [state, setState] = useState(initialState);
-  const setMergedState = newState => setState((prevState) => {
+  const setMergedState = (newState) => setState((prevState) => {
     const expectedState = _.assign(prevState, newState);
     return { ...expectedState };
   });
