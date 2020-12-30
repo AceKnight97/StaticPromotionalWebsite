@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.9.4",
     "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
     "eslint-config-airbnb": "^18.2.1",
     "fbemitter": "^2.1.1",
     "lodash": "^4.17.20",

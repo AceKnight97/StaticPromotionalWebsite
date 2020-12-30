@@ -63,7 +63,6 @@ export function* loginRequest() {
   }
 }
 
-
 export default function* loginFlow() {
   yield fork(loginRequest);
 }
