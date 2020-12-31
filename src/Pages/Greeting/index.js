@@ -6,18 +6,25 @@ import classnames from 'classnames';
 import _ from 'lodash';
 import { } from 'antd';
 import { useMergeState } from '../../Helpers/customHooks';
+import logo from '../../logo.svg';
 
 const Greeting = (props) => {
   const [state, setState] = useMergeState({
     data: [],
   });
+
   const { className } = props;
+
   return (
     <div className={classnames('greeting-wrapper', className)}>
-      <span>my component</span>
+
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 };
+
 Greeting.defaultProps = {
   className: '',
 };
