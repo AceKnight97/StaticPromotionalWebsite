@@ -1,6 +1,4 @@
-import React, {
-  useEffect,
-} from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import _ from 'lodash';
@@ -17,10 +15,7 @@ const Greeting = (props) => {
 
   return (
     <div className={classnames('greeting-wrapper', className)}>
-
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </div>
+      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 };
