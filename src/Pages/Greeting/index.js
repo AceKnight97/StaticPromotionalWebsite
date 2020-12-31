@@ -16,6 +16,7 @@ const Greeting = (props) => {
   return (
     <div className={classnames('greeting-wrapper', className)}>
       <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 };
