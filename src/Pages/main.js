@@ -14,7 +14,7 @@ class Main extends React.Component {
         <Router>
           <Switch>
             <Route path="/sign-in" name="Sign In" component={SignIn} />
-            <Route path="/greeting" name="Greeting" component={Greeting} />
+            <Route path="/staticpromotionalwebsite/greeting" name="Greeting" component={Greeting} />
             <PrivateRoute path="/" name="full" component={NotFound} />
             <Route path="*" name="notFound" component={NotFound} />
           </Switch>
