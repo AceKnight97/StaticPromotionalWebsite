@@ -18,5 +18,17 @@
     height: 850px;
     background: white;
     border-radius: 8px;
+    padding: 8px;
+  }
+  .my-cv-header{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    width: 100%;
+  }
+  .my-cv-avatar{
+    height: 160px;
+    width: 160px;
+    border-radius: 100px;
   }
 }
