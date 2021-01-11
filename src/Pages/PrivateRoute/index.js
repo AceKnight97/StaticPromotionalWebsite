@@ -1,16 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Route, Redirect } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import { Route, Redirect } from "react-router-dom";
 
 const PrivateRoute = ({
-  component: Component, exact = false, path, authenticated,
+  component: Component,
+  exact = false,
+  path,
+  authenticated,
 }) => (
   <Route
     exact={exact}
     path={path}
-    render={(props) => (
-      authenticated ? (<Component {...props} />) : (<Redirect to={{ pathname: '/greeting' }} />)
-    )}
+    render={(props) =>
+      authenticated ? (
+        <Component {...props} />
+      ) : (
+        <Redirect to={{ pathname: "/greeting" }} />
+      )
+    }
   />
 );
 
