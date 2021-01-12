@@ -1,34 +1,59 @@
-.my-cv-wrapper{
+.my-cv-wrapper {
   height: 100%;
   width: 100%;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
   min-width: calc(650px + 48px);
-  min-height:  calc(850px + 48px);
+  min-height: calc(850px + 48px);
   padding: 24px;
   overflow: auto;
-  border-radius: 8px;
+  border-radius: 4px;
 
   display: flex;
   justify-content: center;
   // align-items: center;
 
-  .my-cv-main{
+  .my-cv-main {
     display: flex;
-    width: 650px;
-    height: 850px;
+    width: 850px;
+    min-height: 850px;
     background: white;
     border-radius: 8px;
-    padding: 8px;
+    padding: 24px;
   }
-  .my-cv-header{
+  .my-cv-header {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
     width: 100%;
   }
-  .my-cv-avatar{
+  .my-cv-avatar {
     height: 160px;
     width: 160px;
     border-radius: 100px;
+  }
+  .uni-logo {
+    height: 140px;
+    width: 180px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: max-content;
+    &-name {
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    &-phone-email {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    &-address {
+      font-size: 18px;
+      line-height: 26px;
+    }
   }
 }

@@ -12,7 +12,9 @@
     },
     "sourceType": "module"
   },
+  
   "rules": {
+    "jsx-quotes": [2, "prefer-single"],
     "func-names": ["error", "never"],
     "no-console": "off",
     "react/button-has-type": 0,
@@ -48,21 +50,14 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        "components": [
-          "Link"
-        ],
-        "specialLink": [
-          "to"
-        ]
+        "components": ["Link"],
+        "specialLink": ["to"]
       }
     ],
     "prefer-destructuring": [
@@ -97,9 +92,7 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "**/webpack.*.js"
-        ]
+        "devDependencies": ["**/webpack.*.js"]
       }
     ]
   },

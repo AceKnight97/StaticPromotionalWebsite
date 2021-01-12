@@ -47,13 +47,13 @@ const Greeting = (props) => {
   };
   const showCol2 = () => (
     <div className="col-ct">
-      <span>col1</span>
+      <ButtonCT type="primary" className="col-btn" title="Something 1" />
       <img
         src={logo}
         className={classnames("App-logo", "react-icon")}
         alt="logo"
       />
-      <span>col1</span>
+      <ButtonCT type="primary" className="col-btn" title="Something 1" />
     </div>
   );
   const showCol3 = () => (
