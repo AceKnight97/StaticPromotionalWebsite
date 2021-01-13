@@ -1,17 +1,19 @@
-import React, { useEffect } from "react";
-import PropTypes from "prop-types";
-import classnames from "classnames";
-import _ from "lodash";
-import { Button } from "antd";
+import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import _ from 'lodash';
+import { Button } from 'antd';
 
 const ButtonCT = (props) => {
-  const { className, type, title, onClick } = props;
+  const {
+    className, type, title, onClick,
+  } = props;
 
   return (
     <Button
       onClick={onClick}
       type={type}
-      className={classnames("button-ct-wrapper", className)}
+      className={classnames('button-ct-wrapper', className)}
     >
       {title}
     </Button>
@@ -19,9 +21,9 @@ const ButtonCT = (props) => {
 };
 
 ButtonCT.defaultProps = {
-  className: "",
+  className: '',
   type: undefined,
-  title: "",
+  title: '',
   onClick: () => {},
 };
 ButtonCT.propTypes = {

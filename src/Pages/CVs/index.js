@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
-import PropTypes from "prop-types";
-import classnames from "classnames";
-import _ from "lodash";
-import { } from "antd";
-import avatarIc from "../../Images/Pages/CVs/myAvatar.jpg";
-import hcmusIC from "../../Images/Pages/CVs/logo-khtn.png";
+import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
+import classnames from 'classnames';
+import _ from 'lodash';
+import { } from 'antd';
+import avatarIc from '../../Images/Pages/CVs/myAvatar.jpg';
+import hcmusIC from '../../Images/Pages/CVs/logo-khtn.png';
 
 const MyCV = (props) => {
   const { className } = props;
 
   const showHeader = () => (
-    <div className="my-cv-header">
-      <img src={avatarIc} className="my-cv-avatar" />
+    <div className='my-cv-header'>
+      <img src={avatarIc} className='my-cv-avatar' alt='Avatar img' />
 
       <div className='contact-info'>
         <div className='contact-info-name'>
@@ -29,19 +29,19 @@ const MyCV = (props) => {
         </div>
       </div>
 
-      <img src={hcmusIC} className="uni-logo" />
+      <img src={hcmusIC} className='uni-logo' alt='Logo img' />
     </div>
   );
 
   return (
-    <div className={classnames("my-cv-wrapper", className)}>
-      <div className="my-cv-main">{showHeader()}</div>
+    <div className={classnames('my-cv-wrapper', className)}>
+      <div className='my-cv-main'>{showHeader()}</div>
     </div>
   );
 };
 
 MyCV.defaultProps = {
-  className: "",
+  className: '',
 };
 MyCV.propTypes = {
   className: PropTypes.string,
