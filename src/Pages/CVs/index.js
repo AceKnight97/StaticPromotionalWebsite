@@ -37,9 +37,7 @@ const MyCV = (props) => {
 
       <div className='summary-wrapper'>
         <div>
-          ● I will graduate from the University of Science in September, 2019. My major is Computer Science
-          (Computer Vision). I am interested in game design, GUI programming, artificial intelligence and
-          testing.
+          <span>● My major is Computer Science (Computer Vision).</span>
         </div>
         <div className='summary-content'>
           ● Besides my technology and science interests, I enjoy social experiences such as making new friends
