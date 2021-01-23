@@ -10,30 +10,26 @@ import BodyTopic from './Layout/bodyTopic';
 import ReferenceItem from './Layout/referenceItem';
 import InfoRow from './Layout/infoRow';
 
-const MyCV2 = (props) => {
+const MyCV2 = () => {
   const showHeader = () => (
-    <div className='my-cv-header'>
-      <img src={avatarIc} className='my-cv-avatar' alt='Avatar img' />
+    <div className='my-cv-2-header'>
+      <img src={avatarIc} className='my-cv-2-avatar' alt='Avatar img' />
 
-      <div className='contact-info'>
-        <div className='contact-info-name'>
-          <span>Truong Thanh Triet</span>
+      <div className='my-cv-2-names'>
+        <div className='my-cv-2-lastname'>
+          <span>Truong Thanh</span>
         </div>
-
-        <div className='contact-info-phone-email'>
-          <span>(+84) 819 541 897 / tttriet1997@gmail.com</span>
+        <div className='my-cv-2-firstname'>
+          <span>Triet</span>
         </div>
-
-        <div className='contact-info-address'>
-          <span>327 Le Van Luong street, District 7, Hochiminh city</span>
+        <div className='my-cv-2-role'>
+          <span>Web-App developer</span>
         </div>
       </div>
-
-      <img src={hcmusIC} className='uni-logo' alt='Logo img' />
     </div>
   );
 
-  const showLeft = () => {
+  const showGeneralInfo = () => {
     const arr = [
       {
         icon: <MailOutlined />,
@@ -49,39 +45,93 @@ const MyCV2 = (props) => {
       },
       {
         icon: <EnvironmentOutlined />,
-        title: '327 Le Van Luong street, District 7, Hochiminh city',
+        title: 'District 7, Hochiminh city',
       },
     ];
     return (
-      <div className='my-cv-2-left'>
-        <div className='my-cv-2-header'>
-          <img src={avatarIc} className='my-cv-2-avatar' alt='Avatar img' />
+      _.map(arr, (x, i) => (
+        <InfoRow
+          className={i === 0 ? 'mt24' : 'mt16'}
+          key={i}
+          icon={x.icon}
+          title={x.title}
+        />
+      ))
+    );
+  };
 
-          <div className='my-cv-2-names'>
-            <div className='my-cv-2-lastname'>
-              <span>Truong Thanh</span>
-            </div>
-            <div className='my-cv-2-firstname'>
-              <span>Triet</span>
-            </div>
-            <div className='my-cv-2-role'>
-              <span>Web-App developer</span>
-            </div>
-          </div>
+  const showIndustryKnowledge = () => {
+    const arr = [
+      'Web-App Develop',
+      'Technical Research',
+      'Team work',
+      'Project progressing',
+    ];
+    return (
+      <div className='my-cv-2-body'>
+        <div className='my-cv-2-body-title'>
+          <span>Industry Knowledge</span>
         </div>
 
         {_.map(arr, (x, i) => (
-          <InfoRow
-            className={i === 0 ? 'mt24' : 'mt16'}
-            key={i}
-            icon={x.icon}
-            title={x.title}
-          />
+          <div key={i} className='my-cv-2-body-content'>
+            <span>{`● ${x}`}</span>
+          </div>
         ))}
-
       </div>
     );
   };
+
+  const showLanguages = () => {
+    const arr = [
+      'Vietnamese',
+      'English',
+    ];
+    return (
+      <div className='my-cv-2-body'>
+        <div className='my-cv-2-body-title'>
+          <span>Languages</span>
+        </div>
+
+        {_.map(arr, (x, i) => (
+          <div key={i} className='my-cv-2-body-content'>
+            <span>{x}</span>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  const showSocial = () => {
+    const arr = [
+      'https://www.facebook.com/profile.php?id=100015087697713',
+      'https://www.linkedin.com/in/tri%E1%BA%BFt-tr%C6%B0%C6%A1ng-thanh-89a92b161/',
+    ];
+    return (
+      <div className='my-cv-2-body'>
+        <div className='my-cv-2-body-title'>
+          <span>Social</span>
+        </div>
+
+        {_.map(arr, (x, i) => (
+          <div key={i} className='my-cv-2-body-link'>
+            <span>{x}</span>
+          </div>
+        ))}
+      </div>
+    );
+  };
+
+  const showLeft = () => (
+    <div className='my-cv-2-left'>
+      {showHeader()}
+      {showGeneralInfo()}
+      {showIndustryKnowledge()}
+      {showLanguages()}
+      {showSocial()}
+
+    </div>
+  );
 
   return (
     <div className='my-cv-wrapper'>
