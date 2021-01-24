@@ -14,6 +14,7 @@
   },
   
   "rules": {
+    "allowTemplateLiterals": true ,
     "jsx-quotes": [2, "prefer-single"],
     "func-names": ["error", "never"],
     "no-console": "off",
