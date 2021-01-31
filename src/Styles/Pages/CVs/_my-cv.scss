@@ -68,7 +68,9 @@
     width: 100%;
     padding: 24px;
   }
+}
 
+.my-cv-wrapper {
   .my-cv-2 {
     &-main {
       height: 100%;
@@ -135,11 +137,25 @@
         font-size: 16px;
         line-height: 22px;
         color: #fafafa;
+        .a-dot {
+          font-size: 12px;
+          vertical-align: top;
+          margin-right: 4px;
+        }
       }
       &-link {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 16px;
         color: #fafafa;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+        span {
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
       }
     }
   }

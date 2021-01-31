@@ -1,13 +1,11 @@
 import React from 'react';
-import classnames from 'classnames';
+// import classnames from 'classnames';
 import {
-  MailOutlined, PhoneOutlined, DollarOutlined, EnvironmentOutlined,
+  MailOutlined, PhoneOutlined, GithubOutlined, EnvironmentOutlined,
 } from '@ant-design/icons';
 import _ from 'lodash';
+import { Button } from 'antd';
 import avatarIc from '../../Images/Pages/CVs/myAvatar.jpg';
-import hcmusIC from '../../Images/Pages/CVs/logo-khtn.png';
-import BodyTopic from './Layout/bodyTopic';
-import ReferenceItem from './Layout/referenceItem';
 import InfoRow from './Layout/infoRow';
 
 const MyCV2 = () => {
@@ -40,8 +38,9 @@ const MyCV2 = () => {
         title: '(+84) 819 541 897',
       },
       {
-        icon: <DollarOutlined />,
+        icon: <GithubOutlined />,
         title: 'https://aceknight97.github.io/greeting',
+        type: 'LINK',
       },
       {
         icon: <EnvironmentOutlined />,
@@ -55,6 +54,7 @@ const MyCV2 = () => {
           key={i}
           icon={x.icon}
           title={x.title}
+          type={x?.type}
         />
       ))
     );
@@ -75,7 +75,8 @@ const MyCV2 = () => {
 
         {_.map(arr, (x, i) => (
           <div key={i} className='my-cv-2-body-content'>
-            <span>{`● ${x}`}</span>
+            <span className='a-dot'>●</span>
+            <span>{x}</span>
           </div>
         ))}
       </div>
@@ -114,10 +115,27 @@ const MyCV2 = () => {
         </div>
 
         {_.map(arr, (x, i) => (
-          <div key={i} className='my-cv-2-body-link'>
-            <span>{x}</span>
-          </div>
+          <Button
+            key={i}
+            onClick={() => window.open(x, '')}
+            type='link'
+            ghost
+            className='my-cv-2-body-link'
+          >
+            {x}
+          </Button>
         ))}
+      </div>
+    );
+  };
+
+  const showHobbies = () => {
+    const a = '';
+    return (
+      <div className='my-cv-2-body'>
+        <div className='my-cv-2-body-title'>
+          <span>Hobbies</span>
+        </div>
       </div>
     );
   };
@@ -129,7 +147,7 @@ const MyCV2 = () => {
       {showIndustryKnowledge()}
       {showLanguages()}
       {showSocial()}
-
+      {showHobbies()}
     </div>
   );
 
