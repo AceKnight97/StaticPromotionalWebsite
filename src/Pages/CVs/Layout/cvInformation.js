@@ -2,10 +2,17 @@ import React from 'react';
 // import classnames from 'classnames';
 import {
   MailOutlined, PhoneOutlined, GithubOutlined, EnvironmentOutlined,
+  ReadOutlined, AreaChartOutlined,
 } from '@ant-design/icons';
 import _ from 'lodash';
 import { Button } from 'antd';
+
+import {
+  SOCICAL_DATA, INDUSTRY_KNOWLEDGE_DATA, LANGUAGE_DATA,
+} from '../../../Constants/cvInfo';
+
 import avatarIc from '../../../Images/Pages/CVs/myAvatar.jpg';
+import ballIc from '../../../Images/Pages/CVs/ballIc.svg';
 import InfoRow from './infoRow';
 
 const CVInformation = () => {
@@ -38,8 +45,8 @@ const CVInformation = () => {
         title: '(+84) 819 541 897',
       },
       {
-        icon: <GithubOutlined />,
-        title: 'https://aceknight97.github.io/greeting',
+        icon: <AreaChartOutlined />,
+        title: 'https://github.com/AceKnight97/staticpromotionalwebsite',
         type: 'LINK',
       },
       {
@@ -60,87 +67,97 @@ const CVInformation = () => {
     );
   };
 
-  const showIndustryKnowledge = () => {
-    const arr = [
-      'Web-App Develop',
-      'Technical Research',
-      'Team work',
-      'Project progressing',
-    ];
-    return (
-      <div className='my-cv-2-body'>
-        <div className='my-cv-2-body-title'>
-          <span>Industry Knowledge</span>
-        </div>
-
-        {_.map(arr, (x, i) => (
-          <div key={i} className='my-cv-2-body-content'>
-            <span className='a-dot'>●</span>
-            <span>{x}</span>
-          </div>
-        ))}
+  const showIndustryKnowledge = () => (
+    <div className='my-cv-2-body'>
+      <div className='my-cv-2-body-title'>
+        <span>Industry Knowledge</span>
       </div>
-    );
-  };
 
-  const showLanguages = () => {
-    const arr = [
-      'Vietnamese',
-      'English',
-    ];
-    return (
-      <div className='my-cv-2-body'>
-        <div className='my-cv-2-body-title'>
-          <span>Languages</span>
+      {_.map(INDUSTRY_KNOWLEDGE_DATA, (x, i) => (
+        <div key={i} className='my-cv-2-body-content'>
+          <span className='a-dot'>●</span>
+          <span>{x}</span>
         </div>
+      ))}
+    </div>
+  );
 
-        {_.map(arr, (x, i) => (
-          <div key={i} className='my-cv-2-body-content'>
-            <span>{x}</span>
-          </div>
-        ))}
+  const showLanguages = () => (
+    <div className='my-cv-2-body'>
+      <div className='my-cv-2-body-title'>
+        <span>Languages</span>
       </div>
-    );
-  };
 
-  const showSocial = () => {
-    const arr = [
-      'https://www.facebook.com/profile.php?id=100015087697713',
-      'https://www.linkedin.com/in/tri%E1%BA%BFt-tr%C6%B0%C6%A1ng-thanh-89a92b161/',
-    ];
-    return (
-      <div className='my-cv-2-body'>
-        <div className='my-cv-2-body-title'>
-          <span>Social</span>
+      {_.map(LANGUAGE_DATA, (x, i) => (
+        <div key={i} className='my-cv-2-body-content'>
+          <span>{x}</span>
         </div>
+      ))}
+    </div>
+  );
 
-        {_.map(arr, (x, i) => (
-          <Button
-            key={i}
-            onClick={() => window.open(x, '')}
-            type='link'
-            ghost
-            className='my-cv-2-body-link'
-          >
-            {x}
-          </Button>
-        ))}
+  const showSocial = () => (
+    <div className='my-cv-2-body'>
+      <div className='my-cv-2-body-title'>
+        <span>Social</span>
       </div>
-    );
-  };
+
+      {_.map(SOCICAL_DATA, (x, i) => (
+        <Button
+          key={i}
+          onClick={() => window.open(x, '')}
+          type='link'
+          ghost
+          className='my-cv-2-body-link'
+        >
+          {x}
+        </Button>
+      ))}
+    </div>
+  );
 
   const showHobbies = () => {
-    const arr = [];
+    const arr = [
+      {
+        title: 'Reading',
+        icon: <ReadOutlined />,
+      },
+      {
+        title: 'Soccer',
+        icon: ballIc,
+      },
+    ];
     return (
       <div className='my-cv-2-body'>
         <div className='my-cv-2-body-title'>
           <span>Hobbies</span>
         </div>
-        {_.map(arr, (x, i) => (
-          <div key={i} className=''>
-            <span>{x}</span>
-          </div>
-        ))}
+
+        <div className='my-cv-2-body-hobbies-wrapper'>
+          {_.map(arr, (x, i) => (
+            <div key={i} className='my-cv-2-hobbies'>
+              {
+                typeof (x.icon) === 'object'
+                  ? (
+                    <div className='my-cv-2-hobbies-icon'>
+                      {x.icon}
+                    </div>
+                  )
+                  : (
+                    <img
+                      src={x.icon}
+                      alt='Hobbies icon'
+                      className='my-cv-2-hobbies-icon'
+                    />
+                  )
+              }
+              <div className='my-cv-2-hobbies-title'>
+                <span>{x.title}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
     );
   };

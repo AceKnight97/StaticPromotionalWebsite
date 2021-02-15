@@ -9,6 +9,13 @@
     button {
       margin: 0 auto;
       padding: 0;
+      width: calc(100% - 40px);
+      span {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
     }
   }
   &-icon {
