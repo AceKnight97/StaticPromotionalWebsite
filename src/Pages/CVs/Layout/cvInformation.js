@@ -1,8 +1,8 @@
 import React from 'react';
 // import classnames from 'classnames';
 import {
-  MailOutlined, PhoneOutlined, GithubOutlined, EnvironmentOutlined,
-  ReadOutlined, AreaChartOutlined,
+  MailOutlined, PhoneOutlined, YoutubeOutlined, EnvironmentOutlined,
+  ReadOutlined, GlobalOutlined, DribbbleOutlined, RocketOutlined,
 } from '@ant-design/icons';
 import _ from 'lodash';
 import { Button } from 'antd';
@@ -12,7 +12,6 @@ import {
 } from '../../../Constants/cvInfo';
 
 import avatarIc from '../../../Images/Pages/CVs/myAvatar.jpg';
-import ballIc from '../../../Images/Pages/CVs/ballIc.svg';
 import InfoRow from './infoRow';
 
 const CVInformation = () => {
@@ -45,7 +44,7 @@ const CVInformation = () => {
         title: '(+84) 819 541 897',
       },
       {
-        icon: <AreaChartOutlined />,
+        icon: <GlobalOutlined />,
         title: 'https://github.com/AceKnight97/staticpromotionalwebsite',
         type: 'LINK',
       },
@@ -123,8 +122,16 @@ const CVInformation = () => {
         icon: <ReadOutlined />,
       },
       {
+        title: 'Movies',
+        icon: <YoutubeOutlined />,
+      },
+      {
         title: 'Soccer',
-        icon: ballIc,
+        icon: <DribbbleOutlined />,
+      },
+      {
+        title: 'Science Research',
+        icon: <RocketOutlined />,
       },
     ];
     return (

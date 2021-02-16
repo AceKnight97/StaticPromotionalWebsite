@@ -1,14 +1,29 @@
 import React from 'react';
+import _ from 'lodash';
+
 import BodyTopic from './bodyTopic';
+import CVExp from './cvExp';
+import {
+  EXPERIENCE_DATA, EDUCATION_DATA,
+} from '../../../Constants/cvInfo';
 
 const CVDetails = () => {
   const showExperience = () => (
-    <BodyTopic title='Experience' />
+    <>
+      <BodyTopic title='Experience' />
 
+      {_.map(EXPERIENCE_DATA, (x, i) => (
+        <CVExp key={i} data={x} />
+      ))}
+
+    </>
   );
   const showEducation = () => (
-    <BodyTopic title='Education' className='mt24' />
+    <>
+      <BodyTopic title='Education' className='mt24' />
 
+      <CVExp data={EDUCATION_DATA[0]} />
+    </>
   );
   const showMySkills = () => (
     <BodyTopic title='My Skills' className='mt24' />
