@@ -14,7 +14,7 @@ const PrivateRoute = ({
     render={(props) => (authenticated ? (
       <Component {...props} />
     ) : (
-      <Redirect to={{ pathname: '/greeting' }} />
+      <Redirect to={{ pathname: '/staticpromotionalwebsite' }} />
     ))}
   />
 );

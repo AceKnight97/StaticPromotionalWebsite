@@ -14,7 +14,7 @@ class Main extends React.Component {
         <Router>
           <Switch>
             <Route path='/my-cv' name='My CV' component={MyCV2} />
-            <Route path='/greeting' name='Greeting' component={Greeting} />
+            <Route path='/staticpromotionalwebsite' name='Greeting' component={Greeting} />
             <PrivateRoute path='/' name='full' component={NotFound} />
             <Route path='*' name='notFound' component={NotFound} />
           </Switch>
