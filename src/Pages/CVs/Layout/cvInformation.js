@@ -45,7 +45,7 @@ const CVInformation = () => {
       },
       {
         icon: <GlobalOutlined />,
-        title: 'https://github.com/AceKnight97/staticpromotionalwebsite',
+        title: 'https://aceknight97.github.io/staticpromotionalwebsite',
         type: 'LINK',
       },
       {

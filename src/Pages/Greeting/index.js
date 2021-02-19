@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { useHistory } from 'react-router-dom';
 import _ from 'lodash';
-import {} from 'antd';
+import { } from 'antd';
 import { useMergeState } from '../../Helpers/customHooks';
 import logo from '../../logo.svg';
 import ButtonCT from '../../Components/Buttons';
@@ -22,12 +22,12 @@ const Greeting = (props) => {
       },
       {
         title: 'Buy website',
-        onClick: () => history.push('/my-cv'),
+        // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
       {
         title: 'Hire Tour Guide In HCM City',
-        onClick: () => history.push('/my-cv'),
+        // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
     ];
@@ -62,17 +62,17 @@ const Greeting = (props) => {
     const titleArr = [
       {
         title: 'Rent Home/Store',
-        onClick: () => history.push('/my-cv'),
+        // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
       {
         title: 'HCM Assistant',
-        onClick: () => history.push('/my-cv'),
+        // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
       {
         title: 'Everything In The World',
-        onClick: () => history.push('/my-cv'),
+        // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
     ];

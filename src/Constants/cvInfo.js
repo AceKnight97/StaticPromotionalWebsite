@@ -33,7 +33,7 @@ export const EXPERIENCE_DATA = [
     name: 'Impact Technical Resources VN',
     position: 'Software - Front-end developer',
     duration: 'Jan 2020 - Present - 1 year, HCM city',
-    content: ['I develop Web-App products by using React/React Native. Experienced with a lean product development process: research, a few design, coding, test, and iterate.'],
+    content: ['I develop Web-App products by using React/React Native. Experienced with a lean product development process: research, design, coding, test, and iterate.'],
   },
   {
     name: 'Other',
@@ -49,7 +49,7 @@ export const EXPERIENCE_DATA = [
 export const EDUCATION_DATA = [
   {
     name: 'Bachelor of Computer Science in Information Technology',
-    position: 'University Of Science - HCM',
+    position: 'University Of Science - Hochiminh',
     duration: '2015-2019, Hochiminh city',
   },
 ];
