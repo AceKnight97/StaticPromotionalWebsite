@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/staticpromotionalwebsite/static/css/main.b521786c.chunk.css",
-    "main.js": "/staticpromotionalwebsite/static/js/main.65b0e138.chunk.js",
-    "main.js.map": "/staticpromotionalwebsite/static/js/main.65b0e138.chunk.js.map",
+    "main.css": "/staticpromotionalwebsite/static/css/main.062643c3.chunk.css",
+    "main.js": "/staticpromotionalwebsite/static/js/main.05cf1f82.chunk.js",
+    "main.js.map": "/staticpromotionalwebsite/static/js/main.05cf1f82.chunk.js.map",
     "runtime-main.js": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js",
     "runtime-main.js.map": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js.map",
     "static/css/2.4d98ed14.chunk.css": "/staticpromotionalwebsite/static/css/2.4d98ed14.chunk.css",
@@ -10,30 +10,30 @@
     "static/js/2.c0a38afa.chunk.js.map": "/staticpromotionalwebsite/static/js/2.c0a38afa.chunk.js.map",
     "index.html": "/staticpromotionalwebsite/index.html",
     "static/css/2.4d98ed14.chunk.css.map": "/staticpromotionalwebsite/static/css/2.4d98ed14.chunk.css.map",
-    "static/css/main.b521786c.chunk.css.map": "/staticpromotionalwebsite/static/css/main.b521786c.chunk.css.map",
+    "static/css/main.062643c3.chunk.css.map": "/staticpromotionalwebsite/static/css/main.062643c3.chunk.css.map",
     "static/js/2.c0a38afa.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.c0a38afa.chunk.js.LICENSE.txt",
-    "static/media/biocare.ee93e369.svg": "/staticpromotionalwebsite/static/media/biocare.ee93e369.svg",
-    "static/media/cardiac.232fdf9a.svg": "/staticpromotionalwebsite/static/media/cardiac.232fdf9a.svg",
-    "static/media/css3.03390e7c.svg": "/staticpromotionalwebsite/static/media/css3.03390e7c.svg",
-    "static/media/figma.9840068e.svg": "/staticpromotionalwebsite/static/media/figma.9840068e.svg",
-    "static/media/html.b52d43b6.svg": "/staticpromotionalwebsite/static/media/html.b52d43b6.svg",
-    "static/media/js.42de09c1.svg": "/staticpromotionalwebsite/static/media/js.42de09c1.svg",
+    "static/media/biocare.01143076.svg": "/staticpromotionalwebsite/static/media/biocare.01143076.svg",
+    "static/media/cardiac.3f929946.svg": "/staticpromotionalwebsite/static/media/cardiac.3f929946.svg",
+    "static/media/css3.aea9931e.svg": "/staticpromotionalwebsite/static/media/css3.aea9931e.svg",
+    "static/media/figma.0aa75f9e.svg": "/staticpromotionalwebsite/static/media/figma.0aa75f9e.svg",
+    "static/media/html.0920fe37.svg": "/staticpromotionalwebsite/static/media/html.0920fe37.svg",
+    "static/media/js.d4cef2b5.svg": "/staticpromotionalwebsite/static/media/js.d4cef2b5.svg",
     "static/media/logo-khtn.48ed4e48.png": "/staticpromotionalwebsite/static/media/logo-khtn.48ed4e48.png",
     "static/media/logo.6ce24c58.svg": "/staticpromotionalwebsite/static/media/logo.6ce24c58.svg",
-    "static/media/mdm.bea6dc0b.svg": "/staticpromotionalwebsite/static/media/mdm.bea6dc0b.svg",
+    "static/media/mdm.0a7c7fd6.svg": "/staticpromotionalwebsite/static/media/mdm.0a7c7fd6.svg",
     "static/media/myAvatar.a74f52ab.jpg": "/staticpromotionalwebsite/static/media/myAvatar.a74f52ab.jpg",
     "static/media/nano.8253c53e.png": "/staticpromotionalwebsite/static/media/nano.8253c53e.png",
-    "static/media/npm.66674136.svg": "/staticpromotionalwebsite/static/media/npm.66674136.svg",
-    "static/media/python.0b6d9996.svg": "/staticpromotionalwebsite/static/media/python.0b6d9996.svg",
-    "static/media/react.3050572a.svg": "/staticpromotionalwebsite/static/media/react.3050572a.svg",
-    "static/media/sourcetree.a782f129.svg": "/staticpromotionalwebsite/static/media/sourcetree.a782f129.svg",
-    "static/media/vs.04315a89.svg": "/staticpromotionalwebsite/static/media/vs.04315a89.svg"
+    "static/media/npm.7ab95c63.svg": "/staticpromotionalwebsite/static/media/npm.7ab95c63.svg",
+    "static/media/python.89a2e0d8.svg": "/staticpromotionalwebsite/static/media/python.89a2e0d8.svg",
+    "static/media/react.057a1ba9.svg": "/staticpromotionalwebsite/static/media/react.057a1ba9.svg",
+    "static/media/sourcetree.2e285141.svg": "/staticpromotionalwebsite/static/media/sourcetree.2e285141.svg",
+    "static/media/vs.deec76c3.svg": "/staticpromotionalwebsite/static/media/vs.deec76c3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.80bf756d.js",
     "static/css/2.4d98ed14.chunk.css",
     "static/js/2.c0a38afa.chunk.js",
-    "static/css/main.b521786c.chunk.css",
-    "static/js/main.65b0e138.chunk.js"
+    "static/css/main.062643c3.chunk.css",
+    "static/js/main.05cf1f82.chunk.js"
   ]
 }

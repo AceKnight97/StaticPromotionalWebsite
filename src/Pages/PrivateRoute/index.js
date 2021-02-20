@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
+const pathname = '/staticpromotionalwebsite';
+
 const PrivateRoute = ({
   component: Component,
   exact = false,
@@ -11,11 +13,11 @@ const PrivateRoute = ({
   <Route
     exact={exact}
     path={path}
-    render={(props) => (authenticated ? (
-      <Component {...props} />
-    ) : (
-      <Redirect to={{ pathname: '/staticpromotionalwebsite' }} />
-    ))}
+    render={(props) => (authenticated
+      ? (
+        <Component {...props} />
+      ) : (
+        <Redirect to={{ pathname }} />))}
   />
 );
 

@@ -24,7 +24,7 @@ ButtonCT.defaultProps = {
   className: '',
   type: undefined,
   title: '',
-  onClick: () => {},
+  onClick: () => { },
 };
 ButtonCT.propTypes = {
   className: PropTypes.string,

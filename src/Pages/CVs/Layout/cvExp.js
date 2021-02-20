@@ -12,21 +12,21 @@ const CVExp = (props) => {
   return (
     <div className={className}>
       {name && (
-      <div className='cv-exp-company-name'>
-        <span>{name}</span>
-      </div>
+        <div className='cv-exp-company-name'>
+          <span>{name}</span>
+        </div>
       )}
 
       {position && (
-      <div className='cv-exp-postion'>
-        <span>{position}</span>
-      </div>
+        <div className='cv-exp-postion'>
+          <span>{position}</span>
+        </div>
       )}
 
       {duration && (
-      <div className='cv-exp-duration'>
-        <span>{duration}</span>
-      </div>
+        <div className='cv-exp-duration'>
+          <span>{duration}</span>
+        </div>
       )}
 
       {content?.length !== 0 && (
