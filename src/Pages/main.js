@@ -5,7 +5,6 @@ import NotFound from './NotFound';
 import PrivateRoute from './PrivateRoute';
 import Greeting from './Greeting';
 import MyCV from './CVs';
-import MyCV2 from './CVs/myCV';
 
 class Main extends React.Component {
   render() {
@@ -13,7 +12,7 @@ class Main extends React.Component {
       <main className='div-root'>
         <Router>
           <Switch>
-            <Route path='/my-cv' name='My CV' component={MyCV2} />
+            <Route path='/my-cv' name='My CV' component={MyCV} />
             <Route path='/staticpromotionalwebsite' name='Greeting' component={Greeting} />
             <PrivateRoute path='/' name='full' component={NotFound} />
             <Route path='*' name='notFound' component={NotFound} />

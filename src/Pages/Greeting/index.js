@@ -26,7 +26,7 @@ const Greeting = (props) => {
         type: 'primary',
       },
       {
-        title: 'Hire Tour Guide In HCM City',
+        title: 'Hire Tour Guide In Hochiminh City',
         // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
@@ -66,7 +66,7 @@ const Greeting = (props) => {
         type: 'primary',
       },
       {
-        title: 'HCM Assistant',
+        title: 'Hochiminh Assistant',
         // onClick: () => history.push('/my-cv'),
         type: 'primary',
       },
