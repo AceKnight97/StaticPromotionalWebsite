@@ -34,12 +34,17 @@ const CVDetails = () => {
   const showSkillsIcon = (data = []) => (
     <div className='my-skills-wrapper'>
       {_.map(data, (x, i) => (
-        <div key={i} className='my-skills-div'>
-          <img
-            src={x.icon}
-            className='my-skills-icon'
-            alt='logo'
-          />
+        <div key={i} className='my-skills-item'>
+          <div className='my-skills-div'>
+            <img
+              src={x.icon}
+              className='my-skills-icon'
+              alt='logo'
+            />
+          </div>
+          <div className='my-skills-title'>
+            <span>{x.title}</span>
+          </div>
         </div>
       ))}
     </div>

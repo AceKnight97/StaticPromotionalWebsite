@@ -153,6 +153,15 @@
     &-icon {
       height: 46px;
     }
+    &-item {
+    }
+    &-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 68px;
+      margin-top: 4px;
+    }
   }
 }
 .back-btn {

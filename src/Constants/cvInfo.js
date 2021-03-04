@@ -7,6 +7,7 @@ import sourcetree from '../Images/Pages/CVs/sourcetree.svg';
 import vs from '../Images/Pages/CVs/vs.svg';
 import css3 from '../Images/Pages/CVs/css3.svg';
 import html from '../Images/Pages/CVs/html.svg';
+import graphql from '../Images/Pages/CVs/graphql.svg';
 
 import cardiac from '../Images/Pages/CVs/cardiac.svg';
 import nano from '../Images/Pages/CVs/nano.png';
@@ -57,33 +58,46 @@ export const EDUCATION_DATA = [
 export const SKILLS_DATA = [
   {
     icon: react,
+    title: 'React',
   },
   {
     icon: js,
+    title: 'JavaScript',
   },
   {
     icon: npm,
+    title: 'Npm',
   },
   {
     icon: css3,
+    title: 'CSS3',
   },
   {
     icon: html,
+    title: 'HTML5',
   },
 ];
 
 export const OTHER_SKILLS_DATA = [
   {
     icon: sourcetree,
+    title: 'Sourcetree',
   },
   {
     icon: vs,
+    title: 'VisualStudioCode',
   },
   {
     icon: figma,
+    title: 'Figma',
   },
   {
     icon: python,
+    title: 'Python',
+  },
+  {
+    icon: graphql,
+    title: 'Graphql',
   },
 ];
 
