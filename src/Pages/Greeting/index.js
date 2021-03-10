@@ -6,6 +6,7 @@ import _ from 'lodash';
 import { } from 'antd';
 import { useMergeState } from '../../Helpers/customHooks';
 import logo from '../../logo.svg';
+import macIc from '../../Images/Pages/Greeting/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
 const Greeting = (props) => {
@@ -18,17 +19,17 @@ const Greeting = (props) => {
       {
         title: 'My CV',
         onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
       {
         title: 'Buy website',
         // onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
       {
         title: 'Hire Tour Guide In Hochiminh City',
         // onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
     ];
     return (
@@ -48,13 +49,14 @@ const Greeting = (props) => {
 
   const showCol2 = () => (
     <div className='col-ct'>
-      <ButtonCT type='primary' className='col-btn' title='Vietnam Real Estate Invest/Trading' />
+      {/* //type='primary' */}
+      <ButtonCT className='col-btn' title='Vietnam Real Estate Invest/Trading' />
       <img
         src={logo}
         className={classnames('App-logo', 'react-icon')}
         alt='logo'
       />
-      <ButtonCT type='primary' className='col-btn' title='Buy Website' />
+      <ButtonCT className='col-btn' title='Buy Website' />
     </div>
   );
 
@@ -63,17 +65,17 @@ const Greeting = (props) => {
       {
         title: 'Rent Home/Store',
         // onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
       {
         title: 'Hochiminh Assistant',
         // onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
       {
         title: 'Everything In The World',
         // onClick: () => history.push('/my-cv'),
-        type: 'primary',
+        // type: 'primary',
       },
     ];
     return (
@@ -92,10 +94,15 @@ const Greeting = (props) => {
   };
 
   return (
-    <div className={classnames('greeting-wrapper', className)}>
-      {showCol1()}
-      {showCol2()}
-      {showCol3()}
+    <div className='greeting'>
+      <div className='greeting-header'>
+        <img src={macIc} className='greeting-header-icon' alt='Mac icon' />
+      </div>
+      <div className={classnames('greeting-wrapper', className)}>
+        {showCol1()}
+        {showCol2()}
+        {showCol3()}
+      </div>
     </div>
   );
 };
