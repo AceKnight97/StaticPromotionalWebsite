@@ -51,11 +51,8 @@ const Greeting = (props) => {
     <div className='col-ct'>
       {/* //type='primary' */}
       <ButtonCT className='col-btn' title='Vietnam Real Estate Invest/Trading' />
-      <img
-        src={logo}
-        className={classnames('App-logo', 'react-icon')}
-        alt='logo'
-      />
+
+      <div />
       <ButtonCT className='col-btn' title='Buy Website' />
     </div>
   );
@@ -94,16 +91,33 @@ const Greeting = (props) => {
   };
 
   return (
-    <div className='greeting'>
-      <div className='greeting-header'>
-        <img src={macIc} className='greeting-header-icon' alt='Mac icon' />
+    <>
+      <div className='greeting'>
+        <img
+          src={logo}
+          className={classnames('App-logo', 'react-icon')}
+          alt='logo'
+        />
+
+        <div className='greeting-header'>
+          <span>Header</span>
+        </div>
+
+        <div className='greeting-pad'>
+          <div className='greeting-introduct'>
+            <img src={macIc} className='greeting-introduct-icon' alt='Mac icon' />
+
+          </div>
+
+          <div className={classnames('greeting-wrapper', className)}>
+            {showCol1()}
+            {showCol2()}
+            {showCol3()}
+          </div>
+        </div>
+
       </div>
-      <div className={classnames('greeting-wrapper', className)}>
-        {showCol1()}
-        {showCol2()}
-        {showCol3()}
-      </div>
-    </div>
+    </>
   );
 };
 

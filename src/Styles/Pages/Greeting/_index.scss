@@ -1,13 +1,34 @@
 .greeting {
   overflow: auto;
-  &-header {
+  position: relative;
+
+  .react-icon {
+    // font-size: calc(10px + 2vmin);
+    // color: white !important;
+    height: 1000px;
+    width: 1000px;
+    font-size: 10vw;
+    position: absolute;
+    top: -500px;
+    right: -500px;
+    z-index: -1;
+  }
+  &-pad {
     max-width: calc(1600px + 10%);
     padding: 0 5%;
+  }
+  &-header {
+    height: 54px;
+    max-width: calc(1600px + 10%);
+    padding: 0 5%;
+  }
+  &-introduct {
     height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
     background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
     &-icon {
       height: 200px;
@@ -25,10 +46,10 @@
     display: flex;
     justify-content: space-between;
 
-    .react-icon {
-      font-size: calc(10px + 2vmin);
-      color: white;
-    }
+    // .react-icon {
+    //   font-size: calc(10px + 2vmin);
+    //   color: white;
+    // }
 
     .col-ct {
       display: flex;
