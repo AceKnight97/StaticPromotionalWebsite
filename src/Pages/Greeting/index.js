@@ -9,6 +9,8 @@ import logo from '../../logo.svg';
 import macIc from '../../Images/Pages/Greeting/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
+import GreetingHeader from './Layout/greetingHeader';
+
 const Greeting = (props) => {
   const history = useHistory();
 
@@ -93,15 +95,13 @@ const Greeting = (props) => {
   return (
     <>
       <div className='greeting'>
-        <img
+        {/* <img
           src={logo}
           className={classnames('App-logo', 'react-icon')}
           alt='logo'
-        />
+        /> */}
 
-        <div className='greeting-header'>
-          <span>Header</span>
-        </div>
+        <GreetingHeader />
 
         <div className='greeting-pad'>
           <div className='greeting-introduct'>
