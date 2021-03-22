@@ -1,3 +1,5 @@
+@import "../../../Styles/variables";
+
 .greeting {
   overflow: auto;
   position: relative;
@@ -19,10 +21,16 @@
   }
   &-header {
     height: 54px;
+    width: 100%;
     max-width: calc(1600px + 10%);
     padding: 0 5%;
+    position: fixed;
+    border-bottom: 1px solid $gray-5;
+    background-color: white;
+    z-index: 9;
   }
   &-introduct {
+    margin-top: 74px;
     height: 400px;
     width: 100%;
     display: flex;

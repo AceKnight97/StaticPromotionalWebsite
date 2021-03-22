@@ -1,11 +1,11 @@
+import './Style/_index.scss';
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { useHistory } from 'react-router-dom';
 import _ from 'lodash';
-import { } from 'antd';
-import { useMergeState } from '../../Helpers/customHooks';
-import logo from '../../logo.svg';
+// import { } from 'antd';
+// import logo from '../../logo.svg';
 import macIc from '../../Images/Pages/Greeting/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
@@ -93,11 +93,11 @@ const Greeting = (props) => {
   return (
     <>
       <div className='greeting'>
-        <img
+        {/* <img
           src={logo}
           className={classnames('App-logo', 'react-icon')}
           alt='logo'
-        />
+        /> */}
 
         <div className='greeting-header'>
           <span>Header</span>
@@ -106,7 +106,6 @@ const Greeting = (props) => {
         <div className='greeting-pad'>
           <div className='greeting-introduct'>
             <img src={macIc} className='greeting-introduct-icon' alt='Mac icon' />
-
           </div>
 
           <div className={classnames('greeting-wrapper', className)}>

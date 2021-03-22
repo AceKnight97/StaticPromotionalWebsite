@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import { ArrowLeftOutlined } from '@ant-design/icons';
 import CVInformation from './Layout/cvInformation';
 import CVDetails from './Layout/cvDetails';
+import './Style/_index.scss';
 
 const MyCV2 = () => {
   const history = useHistory();
