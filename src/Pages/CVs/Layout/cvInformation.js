@@ -16,17 +16,17 @@ import InfoRow from './infoRow';
 
 const CVInformation = () => {
   const showHeader = () => (
-    <div className='my-cv-2-header'>
-      <img src={avatarIc} className='my-cv-2-avatar' alt='Avatar img' />
+    <div className='my-cv-header'>
+      <img src={avatarIc} className='my-cv-avatar' alt='Avatar img' />
 
-      <div className='my-cv-2-names'>
-        <div className='my-cv-2-lastname'>
+      <div className='my-cv-names'>
+        <div className='my-cv-lastname'>
           <span>Truong Thanh</span>
         </div>
-        <div className='my-cv-2-firstname'>
+        <div className='my-cv-firstname'>
           <span>Triet</span>
         </div>
-        <div className='my-cv-2-role'>
+        <div className='my-cv-role'>
           <span>Web-App developer</span>
         </div>
       </div>
@@ -67,13 +67,13 @@ const CVInformation = () => {
   };
 
   const showIndustryKnowledge = () => (
-    <div className='my-cv-2-body'>
-      <div className='my-cv-2-body-title'>
+    <div className='my-cv-body'>
+      <div className='my-cv-body-title'>
         <span>Industry Knowledge</span>
       </div>
 
       {_.map(INDUSTRY_KNOWLEDGE_DATA, (x, i) => (
-        <div key={i} className='my-cv-2-body-content'>
+        <div key={i} className='my-cv-body-content'>
           <span className='a-dot'>●</span>
           <span>{x}</span>
         </div>
@@ -82,13 +82,13 @@ const CVInformation = () => {
   );
 
   const showLanguages = () => (
-    <div className='my-cv-2-body'>
-      <div className='my-cv-2-body-title'>
+    <div className='my-cv-body'>
+      <div className='my-cv-body-title'>
         <span>Languages</span>
       </div>
 
       {_.map(LANGUAGE_DATA, (x, i) => (
-        <div key={i} className='my-cv-2-body-content'>
+        <div key={i} className='my-cv-body-content'>
           <span>{x}</span>
         </div>
       ))}
@@ -96,8 +96,8 @@ const CVInformation = () => {
   );
 
   const showSocial = () => (
-    <div className='my-cv-2-body'>
-      <div className='my-cv-2-body-title'>
+    <div className='my-cv-body'>
+      <div className='my-cv-body-title'>
         <span>Social</span>
       </div>
 
@@ -107,7 +107,7 @@ const CVInformation = () => {
           onClick={() => window.open(x, '')}
           type='link'
           ghost
-          className='my-cv-2-body-link'
+          className='my-cv-body-link'
         >
           {x}
         </Button>
@@ -135,18 +135,18 @@ const CVInformation = () => {
       },
     ];
     return (
-      <div className='my-cv-2-body'>
-        <div className='my-cv-2-body-title'>
+      <div className='my-cv-body'>
+        <div className='my-cv-body-title'>
           <span>Hobbies</span>
         </div>
 
-        <div className='my-cv-2-body-hobbies-wrapper'>
+        <div className='my-cv-body-hobbies-wrapper'>
           {_.map(arr, (x, i) => (
-            <div key={i} className='my-cv-2-hobbies'>
+            <div key={i} className='my-cv-hobbies'>
               {
                 typeof (x.icon) === 'object'
                   ? (
-                    <div className='my-cv-2-hobbies-icon'>
+                    <div className='my-cv-hobbies-icon'>
                       {x.icon}
                     </div>
                   )
@@ -154,11 +154,11 @@ const CVInformation = () => {
                     <img
                       src={x.icon}
                       alt='Hobbies icon'
-                      className='my-cv-2-hobbies-icon'
+                      className='my-cv-hobbies-icon'
                     />
                   )
               }
-              <div className='my-cv-2-hobbies-title'>
+              <div className='my-cv-hobbies-title'>
                 <span>{x.title}</span>
               </div>
             </div>
@@ -170,7 +170,7 @@ const CVInformation = () => {
   };
 
   return (
-    <div className='my-cv-2-left'>
+    <div className='my-cv-left'>
       {showHeader()}
       {showGeneralInfo()}
       {showIndustryKnowledge()}

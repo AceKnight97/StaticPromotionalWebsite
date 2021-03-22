@@ -1,6 +1,5 @@
 import React from 'react';
 import _ from 'lodash';
-import { Button } from 'antd';
 
 import BodyTopic from './bodyTopic';
 import CVExp from './cvExp';
@@ -85,7 +84,7 @@ const CVDetails = () => {
   );
 
   return (
-    <div className='my-cv-2-right'>
+    <div className='my-cv-right'>
       {showExperience()}
 
       {showEducation()}

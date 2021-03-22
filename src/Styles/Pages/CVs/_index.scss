@@ -18,7 +18,7 @@
 }
 
 .my-cv-wrapper {
-  .my-cv-2 {
+  .my-cv {
     &-main {
       padding: 24px;
       overflow: auto;
@@ -164,11 +164,26 @@
     }
   }
 }
+
 .back-btn {
-  &-wrapper {
+  &-cv {
     position: absolute;
     top: 12px;
     left: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 24px;
+    width: 48px;
+  }
+}
+.details-btn {
+  &-cv {
+    position: absolute;
+    top: 12px;
+    right: 12px;
     color: white;
     display: flex;
     justify-content: center;

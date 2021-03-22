@@ -8,8 +8,17 @@ const GreetingHeader = (props) => {
   const history = useHistory();
   const { className } = props;
   return (
-    <div className={classnames('greeting-header', className)}>
-      <span>Header</span>
+    <div className='greeting-header'>
+
+      <div className='greeting-header-left'>
+        <span>Static Promotional Website</span>
+      </div>
+
+      <div className='greeting-header-right'>
+        <span>My CV</span>
+        <span>Buy Website</span>
+      </div>
+
     </div>
   );
 };
