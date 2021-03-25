@@ -13,7 +13,9 @@
   justify-content: space-between;
   &-left {
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    // align-content: center;
     font-weight: bold;
     font-size: 24px;
     color: $blue-5;
@@ -21,5 +23,8 @@
   &-right {
     display: flex;
     align-content: center;
+    .ant-menu-horizontal {
+      line-height: 51px;
+    }
   }
 }
