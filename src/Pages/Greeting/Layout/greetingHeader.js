@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { useHistory } from 'react-router-dom';
 
+import { GREETING_HEADER } from '../../../Constants/greeting';
 import { useMergeState } from '../../../Helpers/customHooks';
 
-const { SubMenu } = Menu;
+const { SubMenu, Item, ItemGroup } = Menu;
 
 const GreetingHeader = (props) => {
   const history = useHistory();
@@ -17,6 +17,19 @@ const GreetingHeader = (props) => {
 
   const handleClick = (e) => {
     console.log('click ', e);
+    switch (e.key) {
+      case GREETING_HEADER[0]:
+        history.push('/my-cv');
+        break;
+      case GREETING_HEADER[1]:
+        break;
+      case GREETING_HEADER[2]:
+        break;
+      case GREETING_HEADER[3]:
+        break;
+      default:
+        break;
+    }
     setState({ current: e.key });
   };
 
@@ -31,25 +44,33 @@ const GreetingHeader = (props) => {
 
       <div className='greeting-header-right'>
         <Menu onClick={handleClick} selectedKeys={[current]} mode='horizontal'>
-          <Menu.Item key='mail'>
-            Navigation One
-          </Menu.Item>
-          <Menu.Item key='app'>
-            Navigation Two
-          </Menu.Item>
-          <SubMenu key='SubMenu' title='Navigation Three - Submenu'>
-            <Menu.ItemGroup title='Item 1'>
-              <Menu.Item key='setting:1'>Option 1</Menu.Item>
-              <Menu.Item key='setting:2'>Option 2</Menu.Item>
-            </Menu.ItemGroup>
-            <Menu.ItemGroup title='Item 2'>
-              <Menu.Item key='setting:3'>Option 3</Menu.Item>
-              <Menu.Item key='setting:4'>Option 4</Menu.Item>
-            </Menu.ItemGroup>
-          </SubMenu>
-          <Menu.Item key='alipay'>
-            Navigation Four - Link
-          </Menu.Item>
+          <Item key={GREETING_HEADER[0]}>
+            {GREETING_HEADER[0]}
+          </Item>
+          <Item key={GREETING_HEADER[1]}>
+            {GREETING_HEADER[1]}
+          </Item>
+          <Item key={GREETING_HEADER[2]}>
+            {GREETING_HEADER[2]}
+          </Item>
+          <Item key={GREETING_HEADER[3]}>
+            {GREETING_HEADER[3]}
+          </Item>
+          <Item key={GREETING_HEADER[4]}>
+            <a href='https://github.com/AceKnight97/staticpromotionalwebsite' target='_blank' rel='noopener noreferrer'>
+              {GREETING_HEADER[4]}
+            </a>
+          </Item>
+          {/* <SubMenu key={GREETING_HEADER[2]} title='Navigation Three - Submenu'>
+            <ItemGroup title='Item 1'>
+              <Item key='setting:1'>Option 1</Item>
+              <Item key='setting:2'>Option 2</Item>
+            </ItemGroup>
+            <ItemGroup title='Item 2'>
+              <Item key='setting:3'>Option 3</Item>
+              <Item key='setting:4'>Option 4</Item>
+            </ItemGroup>
+          </SubMenu> */}
         </Menu>
       </div>
 
