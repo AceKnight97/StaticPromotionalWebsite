@@ -1,7 +1,6 @@
 // define color variables
-$bg: #f0f2f5;
 $new-bg: #545454;
-$gray-0: #282c34;
+$bg: #f0f2f5;
 $gray-1: #ffffff;
 $gray-2: #fafafa;
 $gray-3: #f5f5f5;
@@ -24,8 +23,10 @@ $geekblue-5: #597ef7;
 $red-2: #ffccc7;
 $red-5: #ff4d4f;
 $red-6: #f5222d;
+$red-7: #cf1322;
 
 $gold-2: #fff1b8;
+$gold-5: #ffc53d;
 $gold-6: #faad14;
 
 $volcano-2: #ffd8bf;
@@ -39,6 +40,7 @@ $lime-7: #7cb305;
 
 $green-2: #d9f7be;
 $green-6: #52c41a;
+$green-7: #389e0d;
 
 $cyan-2: #b5f5ec;
 $cyan-6: #13c2c2;
@@ -50,7 +52,6 @@ $magenta-2: #ffd6e7;
 $magenta-5: #f759ab;
 
 // CHART COLORS
-$gold-5: #ffc53d;
 $green-4: #95de64;
 $purple-5: #9254de;
 // lime-3
@@ -60,11 +61,14 @@ $geekblue-3: #597ef7;
 $magenta-4: #ff85c0;
 
 // define font size variables
+$size-0-16: -1rem;
 $size-0-10: -0.625rem;
+$size-0-6: -0.375rem;
 $size-0-3: -0.1875rem;
 $size-0-1: -0.0625rem;
 $size-1: 0.0625rem;
 $size-2: 0.125rem;
+$size-3: 0.1875rem;
 $size-4: 0.25rem;
 $size-5: 0.3125rem;
 $size-6: 0.375rem;
@@ -114,6 +118,7 @@ $size-108: 6.75rem;
 $size-120: 7.5rem;
 $size-145: 9.0625rem;
 $size-148: 9.25rem;
+$size-150: 9.375rem;
 $size-160: 10rem;
 $size-180: 11.25rem;
 $size-200: 12.5rem;
@@ -122,8 +127,13 @@ $size-270: 16.875rem;
 $size-285: 17.8125rem;
 $size-294: 18.375rem;
 $size-522: 32.625rem;
+$size-320: 20rem;
+$size-340: 21.25rem;
+$size-360: 22.5rem;
 $size-610: 38.125rem;
+$size-700: 43.75rem;
 $size-800: 50rem;
+$size-840: 52.5rem;
 
 $bg-000-opacity-05: rgba(0, 0, 0, 0.5);
 
@@ -145,11 +155,14 @@ $elevation-1: 0px 2px 8px rgba(0, 0, 0, 0.15);
   color: $green-6;
 }
 .color-red-5 {
-  color: $red-5;
+  color: $red-5 !important;
 }
 .color-gray-10 {
   color: $gray-10 !important;
 }
 .color-gray-8 {
   color: $gray-8;
+}
+.color-gold-6 {
+  color: $gold-6;
 }

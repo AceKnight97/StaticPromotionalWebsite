@@ -4,12 +4,12 @@ import classnames from 'classnames';
 import { Menu } from 'antd';
 import { useHistory } from 'react-router-dom';
 
-import { GREETING_HEADER } from '../../../Constants/greeting';
-import { useMergeState } from '../../../Helpers/customHooks';
+import { GREETING_HEADER } from '../../Constants/greeting';
+import { useMergeState } from '../../Helpers/customHooks';
 
 const { SubMenu, Item, ItemGroup } = Menu;
 
-const GreetingHeader = (props) => {
+const MainHeader = (props) => {
   const history = useHistory();
   const [state, setState] = useMergeState({
     current: false,
@@ -24,6 +24,7 @@ const GreetingHeader = (props) => {
       case GREETING_HEADER[1]:
         break;
       case GREETING_HEADER[2]:
+        history.push('/contact');
         break;
       case GREETING_HEADER[3]:
         break;
@@ -78,11 +79,11 @@ const GreetingHeader = (props) => {
   );
 };
 
-GreetingHeader.defaultProps = {
+MainHeader.defaultProps = {
   className: '',
 };
-GreetingHeader.propTypes = {
+MainHeader.propTypes = {
   className: PropTypes.string,
 };
 
-export default GreetingHeader;
+export default MainHeader;

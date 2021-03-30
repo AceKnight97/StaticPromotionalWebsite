@@ -9,7 +9,7 @@ import logo from '../../logo.svg';
 import macIc from '../../Images/Pages/Greeting/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
-import GreetingHeader from './Layout/greetingHeader';
+import MainHeader from '../Common/mainHeader';
 
 const Greeting = (props) => {
   const history = useHistory();
@@ -101,7 +101,7 @@ const Greeting = (props) => {
           alt='logo'
         /> */}
 
-        <GreetingHeader />
+        <MainHeader />
 
         <div className='greeting-pad'>
           <div className='greeting-introduct'>
@@ -109,11 +109,11 @@ const Greeting = (props) => {
 
           </div>
 
-          <div className={classnames('greeting-wrapper', className)}>
+          {/* <div className={classnames('greeting-wrapper', className)}>
             {showCol1()}
             {showCol2()}
             {showCol3()}
-          </div>
+          </div> */}
         </div>
 
       </div>

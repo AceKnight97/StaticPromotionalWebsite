@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './NotFound';
 import PrivateRoute from './PrivateRoute';
 import Greeting from './Greeting';
+import Contact from './Contact';
 import MyCV from './CVs';
 
 class Main extends React.Component {
@@ -14,6 +15,7 @@ class Main extends React.Component {
           <Switch>
             <Route path='/my-cv' name='My CV' component={MyCV} />
             <Route path='/staticpromotionalwebsite' name='Greeting' component={Greeting} />
+            <Route path='/contact' name='Contact' component={Contact} />
             <PrivateRoute path='/' name='full' component={NotFound} />
             <Route path='*' name='notFound' component={NotFound} />
           </Switch>

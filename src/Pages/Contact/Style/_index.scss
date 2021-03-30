@@ -1,0 +1,10 @@
+.contact {
+  overflow: auto;
+  position: relative;
+  &-main {
+    padding-top: 74px;
+    // display: flex;
+    // flex-direction: column;
+    width: 100%;
+  }
+}
