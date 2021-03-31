@@ -139,15 +139,13 @@ const Greeting = (props) => {
   );
 
   return (
-    <>
-      <div className='contact'>
-        <MainHeader />
+    <div className='contact'>
+      <MainHeader />
 
-        <div className='contact-main'>
-          {showInputForm()}
-        </div>
+      <div className='contact-main'>
+        {showInputForm()}
       </div>
-    </>
+    </div>
   );
 };
 
