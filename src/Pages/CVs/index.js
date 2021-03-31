@@ -7,6 +7,7 @@ import { useMergeState } from '../../Helpers/customHooks';
 import CVInformation from './Layout/cvInformation';
 import CVDetails from './Layout/cvDetails';
 import DetailsInfo from './Layout/detailsInfo';
+import { PAGE_MANAGER } from '../../Constants';
 
 const MyCV2 = () => {
   const history = useHistory();
@@ -21,7 +22,7 @@ const MyCV2 = () => {
       setState({ isShowDetails: false });
       return;
     }
-    history.push('/');
+    history.push(PAGE_MANAGER.HOME);
   };
 
   const onClickDetailCV = () => {

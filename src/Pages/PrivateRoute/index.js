@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
-
-const pathname = '/staticpromotionalwebsite';
+import { PAGE_MANAGER } from '../../Constants';
 
 const PrivateRoute = ({
   component: Component,
@@ -14,10 +13,9 @@ const PrivateRoute = ({
     exact={exact}
     path={path}
     render={(props) => (authenticated
-      ? (
-        <Component {...props} />
-      ) : (
-        <Redirect to={{ pathname }} />))}
+      ? (<Component {...props} />)
+      : (<Redirect to={{ pathname: PAGE_MANAGER.HOME }} />)
+    )}
   />
 );
 

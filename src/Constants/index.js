@@ -11,3 +11,10 @@ const AppFlowActions = {
   LOGOUT_COMPLETE: 'LOGOUT_COMPLETE',
 };
 export default AppFlowActions;
+
+export const PAGE_MANAGER = {
+  HOME: '/staticpromotionalwebsite',
+  OUR_TEAM: '/our-team',
+  MY_CV: '/my-cv',
+  BUSINESS: '/business',
+};

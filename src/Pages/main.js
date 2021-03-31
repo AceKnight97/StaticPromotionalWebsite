@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Switch, Route, Redirect,
+} from 'react-router-dom';
 
 import reloadPageRequest from '../Redux/Actions/reload';
 
-import NotFound from './NotFound';
-import PrivateRoute from './PrivateRoute';
+import { PAGE_MANAGER } from '../Constants';
+
+// import NotFound from './NotFound';
+// import PrivateRoute from './PrivateRoute';
 import Greeting from './Greeting';
 import Contact from './Contact';
 import MyCV from './CVs';
@@ -14,7 +18,6 @@ import MyCV from './CVs';
 const Main = (props) => {
   useEffect(() => {
     window.onload = () => {
-      console.log('object');
       props.reloadPageRequest();
     };
   }, []);
@@ -26,7 +29,8 @@ const Main = (props) => {
           <Route path='/staticpromotionalwebsite' name='Greeting' component={Greeting} />
           <Route path='/contact' name='Contact' component={Contact} />
           {/* <PrivateRoute path='/' name='full' component={NotFound} /> */}
-          <Route path='*' name='notFound' component={NotFound} />
+          {/* <Route path='*' name='notFound' component={NotFound} /> */}
+          <Redirect path='/' to={{ pathname: PAGE_MANAGER.HOME }} />
         </Switch>
       </Router>
     </main>
