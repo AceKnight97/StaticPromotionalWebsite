@@ -1,20 +1,18 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
+// import classnames from 'classnames';
 import { useHistory } from 'react-router-dom';
 import _ from 'lodash';
 import { } from 'antd';
-import { useMergeState } from '../../Helpers/customHooks';
-import logo from '../../logo.svg';
+// import { useMergeState } from '../../Helpers/customHooks';
+// import logo from '../../logo.svg';
 import macIc from '../../Images/Pages/Home/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
 import MainHeader from '../Common/mainHeader';
 
-const Home = (props) => {
+const Home = () => {
   const history = useHistory();
-
-  const { className } = props;
 
   const showCol1 = () => {
     const titleArr = [
@@ -95,11 +93,6 @@ const Home = (props) => {
   return (
     <>
       <div className='home'>
-        {/* <img
-          src={logo}
-          className={classnames('App-logo', 'react-icon')}
-          alt='logo'
-        /> */}
 
         <MainHeader />
 
@@ -122,10 +115,8 @@ const Home = (props) => {
 };
 
 Home.defaultProps = {
-  className: '',
 };
 Home.propTypes = {
-  className: PropTypes.string,
 };
 
 export default Home;

@@ -12,6 +12,7 @@ import { PAGE_MANAGER } from '../Constants';
 // import NotFound from './NotFound';
 // import PrivateRoute from './PrivateRoute';
 import Home from './Home';
+import OurTeam from './OurTeam';
 import Contact from './Contact';
 import MyCV from './CVs';
 
@@ -25,8 +26,9 @@ const Main = (props) => {
     <main className='div-root'>
       <Router>
         <Switch>
-          <Route path='/my-cv' name='My CV' component={MyCV} />
           <Route path='/staticpromotionalwebsite' name='Home' component={Home} />
+          <Route path='/our-team' name='Our team' component={OurTeam} />
+          <Route path='/my-cv' name='My CV' component={MyCV} />
           <Route path='/contact' name='Contact' component={Contact} />
           {/* <PrivateRoute path='/' name='full' component={NotFound} /> */}
           {/* <Route path='*' name='notFound' component={NotFound} /> */}

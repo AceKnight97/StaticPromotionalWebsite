@@ -11,7 +11,7 @@ import { useMergeState } from '../../Helpers/customHooks';
 const { Item } = Menu; // SubMenu, ItemGroup
 
 const {
-  HOME, MY_CV, CONTACT, HOME_PAGE,
+  HOME, MY_CV, CONTACT, HOME_PAGE, OUR_TEAM,
 } = PAGE_MANAGER;
 
 const MainHeader = (props) => {
@@ -32,7 +32,8 @@ const MainHeader = (props) => {
     if (e.key !== state.current) {
       switch (e.key) {
         case HOME_HEADER[0]:
-          history.push(MY_CV);
+          // history.push(MY_CV);
+          history.push(OUR_TEAM);
           break;
         case HOME_HEADER[1]:
           break;

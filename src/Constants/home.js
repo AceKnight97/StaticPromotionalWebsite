@@ -1,5 +1,5 @@
 export const HOME_HEADER = [
-  'My CV',
+  'Our Team',
   'Business',
   'Contact',
   'Document',

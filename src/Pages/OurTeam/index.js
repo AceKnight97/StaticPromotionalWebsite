@@ -1,28 +1,37 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import classnames from 'classnames';
+// import PropTypes from 'prop-types';
+// import classnames from 'classnames';
 import _ from 'lodash';
-import { } from 'antd';
-import { useMergeState } from '../../Helpers/customHooks';
+import { MEMBER_INFO } from '../../Constants/ourTeam';
 import MainHeader from '../Common/mainHeader';
+import MemberCard from './Layout/memberCard';
 
 const OurTeam = (props) => {
-  const [state, setState] = useMergeState({
-    data: [],
-  });
-  const { className } = props;
+  // const { } = props;
+
+  const renderMainView = () => (
+    <div className='our-team-container'>
+      {
+        _.map(MEMBER_INFO, (x, i) => (
+          <MemberCard data={x} key={i} />
+        ))
+      }
+    </div>
+  );
+
   return (
-    <div className={classnames('our-team', className)}>
+    <div className='our-team'>
       <MainHeader />
-      <span>my component</span>
+
+      <div className='our-team-main'>
+        {renderMainView()}
+      </div>
     </div>
   );
 };
-OurTeam.defaultProps = {
-  className: '',
-};
-OurTeam.propTypes = {
-  className: PropTypes.string,
-};
+// OurTeam.defaultProps = {
+// };
+// OurTeam.propTypes = {
+// };
 
 export default OurTeam;
