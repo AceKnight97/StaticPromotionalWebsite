@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import { useHistory } from 'react-router-dom';
+// import PropTypes from 'prop-types';
+// import classnames from 'classnames';
+// import { useHistory } from 'react-router-dom';
 import emailjs, { init } from 'emailjs-com';
 import { Form, Button, notification } from 'antd';
 import apiKeys from '../../Constants/apiKeys';
@@ -14,33 +14,73 @@ init(apiKeys.USER_ID);
 const Greeting = (props) => {
   // const history = useHistory();
   const [state, setState] = useMergeState({
-    name: '',
+    subject: '',
     email: '',
     message: '',
     loading: false,
+    cooldown: 0,
   });
   const {
-    name, message, loading, email,
+    subject, message, loading, email, cooldown,
   } = state;
 
-  const onSubmit = () => {
-    console.log({ name, message, email });
-    // e.preventDefault();// Prevents default refresh by the browser
-    // console.log({ target: e.target });
-    // emailjs.sendForm(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
-    //   .then((result) => {
-    //     console.log('Message Sent, I\'ll get back to you shortly', result.text);
-    //   },
-    //   (error) => {
-    //     console.log('An error occured, Plese try again', error.text);
-    //   });
+  useEffect(() => {
+    if (cooldown > 0) {
+      const interval = setInterval(() => {
+        setState({ cooldown: cooldown - 1 });
+      }, 1000);
+      return () => clearInterval(interval);
+    }
+    return () => { };
+  }, [state.cooldown]);
+
+  const openNotificationWithIcon = (type = 'success') => {
+    let message;
+    let description;
+    switch (type) {
+      case 'success':
+        message = 'Your mail is successfully sent to us, thank you!';
+        description = 'We will answer your email as soon as possible. Please wait!';
+        break;
+      case 'warning':
+        message = 'You are in cooldown duration!';
+        description = 'Please wait for a min!';
+        break;
+      default:
+        break;
+    }
+    notification[type]({
+      message,
+      description,
+    });
+  };
+
+  const onSubmit = async (e) => {
+    if (cooldown !== 0) {
+      openNotificationWithIcon('warning');
+      return;
+    }
+    console.log({ e });
+    const sendingData = {
+      subject, message, email,
+    };
+    console.log({ sendingData });
+    try {
+      const res = await emailjs.send(apiKeys.SERVICE_ID, apiKeys.TEMPLATE_ID, sendingData, apiKeys.USER_ID);
+      // const res = { text: 'OK' };
+      console.log({ res });
+      if (res?.text === 'OK') {
+        openNotificationWithIcon();
+        setState({ cooldown: 60 });
+      }
+    } catch (error) {
+      console.log('Failed to send email: ', error);
+    }
   };
 
   const onChange = (key, value) => {
     setState({ [key]: value });
   };
-
-  const { className } = props;
 
   const showInputForm = () => (
     <Form
@@ -52,10 +92,10 @@ const Greeting = (props) => {
     >
       <Form.Item className='mb0'>
         <InputCT
-          name='name'
-          title='Your name:'
-          placeholder='Clark Kent'
-          value={name}
+          name='subject'
+          title='The Subject:'
+          placeholder='Order a website...'
+          value={subject}
           onChange={onChange}
         />
       </Form.Item>
@@ -87,6 +127,14 @@ const Greeting = (props) => {
           Send Email
         </Button>
       </Form.Item>
+
+      {
+        cooldown !== 0 && (
+        <div>
+          <span>{`Please wait for ${cooldown}s to send another email!`}</span>
+        </div>
+        )
+      }
     </Form>
   );
 
@@ -104,10 +152,8 @@ const Greeting = (props) => {
 };
 
 Greeting.defaultProps = {
-  className: '',
 };
 Greeting.propTypes = {
-  className: PropTypes.string,
 };
 
 export default Greeting;

@@ -19,11 +19,11 @@ const DatepickerCT = (props) => {
   let disabledDateCT;
   switch (disabledDate) {
     case 'PAST': {
-      disabledDateCT = current => current > moment().endOf('day');
+      disabledDateCT = (current) => current > moment().endOf('day');
       break;
     }
     case 'FUTURE': {
-      disabledDateCT = current => current <= moment().endOf('day');
+      disabledDateCT = (current) => current <= moment().endOf('day');
       break;
     }
     default: {
@@ -40,7 +40,7 @@ const DatepickerCT = (props) => {
           ? (
             <TimePicker
               disabled={disabled}
-              getPopupContainer={trigger => trigger.parentElement}
+              getPopupContainer={(trigger) => trigger.parentElement}
               // inputReadOnly
               suffixIcon={suffixIcon}
               placeholder={placeholder}
@@ -52,7 +52,7 @@ const DatepickerCT = (props) => {
           ) : (
             <DatePicker
               disabled={disabled}
-              getPopupContainer={trigger => trigger.parentElement}
+              getPopupContainer={(trigger) => trigger.parentElement}
               // inputReadOnly
               suffixIcon={suffixIcon}
               placeholder={placeholder}
