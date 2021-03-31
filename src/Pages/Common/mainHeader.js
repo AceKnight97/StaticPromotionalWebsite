@@ -1,49 +1,63 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import { Menu } from 'antd';
-import { useHistory } from 'react-router-dom';
+// import PropTypes from 'prop-types';
+// import classnames from 'classnames';
+import { Menu, Button } from 'antd';
+import { useHistory, useLocation } from 'react-router-dom';
 
+import { PAGE_MANAGER } from '../../Constants';
 import { HOME_HEADER } from '../../Constants/home';
 import { useMergeState } from '../../Helpers/customHooks';
 
-const { SubMenu, Item, ItemGroup } = Menu;
+const { Item } = Menu; // SubMenu, ItemGroup
+
+const {
+  HOME, MY_CV, CONTACT, HOME_PAGE,
+} = PAGE_MANAGER;
 
 const MainHeader = (props) => {
   const history = useHistory();
+  const location = useLocation();
+  // console.log({ location });
   const [state, setState] = useMergeState({
     current: false,
   });
 
-  const handleClick = (e) => {
-    console.log('click ', e);
-    switch (e.key) {
-      case HOME_HEADER[0]:
-        history.push('/my-cv');
-        break;
-      case HOME_HEADER[1]:
-        break;
-      case HOME_HEADER[2]:
-        history.push('/contact');
-        break;
-      case HOME_HEADER[3]:
-        break;
-      default:
-        break;
+  const onClickHome = () => {
+    if (!location.pathname?.includes(HOME)) {
+      history.push(HOME);
     }
-    setState({ current: e.key });
   };
 
-  const { className } = props;
+  const handleClick = (e) => {
+    if (e.key !== state.current) {
+      switch (e.key) {
+        case HOME_HEADER[0]:
+          history.push(MY_CV);
+          break;
+        case HOME_HEADER[1]:
+          break;
+        case HOME_HEADER[2]:
+          history.push(CONTACT);
+          break;
+        case HOME_HEADER[3]:
+          break;
+        default:
+          break;
+      }
+      setState({ current: e.key });
+    }
+  };
+
   const { current } = state;
+
   return (
-    <div className='greeting-header'>
+    <div className='home-header'>
 
-      <div className='greeting-header-left'>
+      <Button type='text' className='home-header-left' onClick={onClickHome}>
         <span>Static Promotional Website</span>
-      </div>
+      </Button>
 
-      <div className='greeting-header-right'>
+      <div className='home-header-right'>
         <Menu onClick={handleClick} selectedKeys={[current]} mode='horizontal'>
           <Item key={HOME_HEADER[0]}>
             {HOME_HEADER[0]}
@@ -58,7 +72,7 @@ const MainHeader = (props) => {
             {HOME_HEADER[3]}
           </Item>
           <Item key={HOME_HEADER[4]}>
-            <a href='https://github.com/AceKnight97/staticpromotionalwebsite' target='_blank' rel='noopener noreferrer'>
+            <a href={HOME_PAGE} target='_blank' rel='noopener noreferrer'>
               {HOME_HEADER[4]}
             </a>
           </Item>
@@ -80,10 +94,8 @@ const MainHeader = (props) => {
 };
 
 MainHeader.defaultProps = {
-  className: '',
 };
 MainHeader.propTypes = {
-  className: PropTypes.string,
 };
 
 export default MainHeader;

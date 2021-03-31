@@ -106,7 +106,6 @@ const CVInformation = () => {
           key={i}
           onClick={() => window.open(x, '')}
           type='link'
-          ghost
           className='my-cv-body-link'
         >
           {x}

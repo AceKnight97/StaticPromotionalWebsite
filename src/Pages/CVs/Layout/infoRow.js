@@ -18,7 +18,6 @@ const InfoRow = (props) => {
           <Button
             onClick={() => window.open(title, '')}
             type='link'
-            ghost
             className='info-row-title'
           >
             {title}
@@ -41,7 +40,10 @@ InfoRow.defaultProps = {
 InfoRow.propTypes = {
   className: PropTypes.string,
   title: PropTypes.string,
-  icon: PropTypes.string,
+  icon: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.shape(),
+  ]),
   type: PropTypes.string,
 };
 

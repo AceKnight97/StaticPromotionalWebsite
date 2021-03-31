@@ -28,7 +28,6 @@ const TeamProduct = (props) => {
         <Button
           onClick={() => window.open(link, '')}
           type='link'
-          ghost
           className='team-product-link'
         >
           <span>{link}</span>
