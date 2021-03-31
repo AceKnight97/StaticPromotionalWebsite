@@ -1,14 +1,14 @@
 import initialState from './initialState';
 import AppFlowActions from '../../Constants';
 
-function processReload(state = initialState, action) {
+const processReload = (state = initialState, action) => {
   if (action.type === AppFlowActions.RELOAD_PAGE_REQUEST) {
     const { login } = state;
-    const returnValue = Object.assign({}, initialState);
+    const returnValue = { ...initialState };
     returnValue.login = login;
     return returnValue;
   }
-  return state;
-}
+  return { ...state };
+};
 
 export default processReload;
