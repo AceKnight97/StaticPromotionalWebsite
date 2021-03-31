@@ -11,7 +11,7 @@ import { PAGE_MANAGER } from '../Constants';
 
 // import NotFound from './NotFound';
 // import PrivateRoute from './PrivateRoute';
-import Greeting from './Greeting';
+import Home from './Home';
 import Contact from './Contact';
 import MyCV from './CVs';
 
@@ -26,7 +26,7 @@ const Main = (props) => {
       <Router>
         <Switch>
           <Route path='/my-cv' name='My CV' component={MyCV} />
-          <Route path='/staticpromotionalwebsite' name='Greeting' component={Greeting} />
+          <Route path='/staticpromotionalwebsite' name='Home' component={Home} />
           <Route path='/contact' name='Contact' component={Contact} />
           {/* <PrivateRoute path='/' name='full' component={NotFound} /> */}
           {/* <Route path='*' name='notFound' component={NotFound} /> */}

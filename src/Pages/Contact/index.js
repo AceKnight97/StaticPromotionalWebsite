@@ -11,7 +11,7 @@ import InputCT from '../../Components/Input/inputCT';
 
 init(apiKeys.USER_ID);
 
-const Greeting = (props) => {
+const Contact = (props) => {
   // const history = useHistory();
   const [state, setState] = useMergeState({
     subject: '',
@@ -149,9 +149,9 @@ const Greeting = (props) => {
   );
 };
 
-Greeting.defaultProps = {
+Contact.defaultProps = {
 };
-Greeting.propTypes = {
+Contact.propTypes = {
 };
 
-export default Greeting;
+export default Contact;

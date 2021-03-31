@@ -1,4 +1,4 @@
-export const GREETING_HEADER = [
+export const HOME_HEADER = [
   'My CV',
   'Business',
   'Contact',

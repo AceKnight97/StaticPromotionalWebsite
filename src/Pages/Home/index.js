@@ -6,12 +6,12 @@ import _ from 'lodash';
 import { } from 'antd';
 import { useMergeState } from '../../Helpers/customHooks';
 import logo from '../../logo.svg';
-import macIc from '../../Images/Pages/Greeting/mac2.svg';
+import macIc from '../../Images/Pages/Home/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
 import MainHeader from '../Common/mainHeader';
 
-const Greeting = (props) => {
+const Home = (props) => {
   const history = useHistory();
 
   const { className } = props;
@@ -94,7 +94,7 @@ const Greeting = (props) => {
 
   return (
     <>
-      <div className='greeting'>
+      <div className='home'>
         {/* <img
           src={logo}
           className={classnames('App-logo', 'react-icon')}
@@ -103,13 +103,13 @@ const Greeting = (props) => {
 
         <MainHeader />
 
-        <div className='greeting-pad'>
-          <div className='greeting-introduct'>
-            <img src={macIc} className='greeting-introduct-icon' alt='Mac icon' />
+        <div className='home-pad'>
+          <div className='home-introduct'>
+            <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
 
           </div>
 
-          {/* <div className={classnames('greeting-wrapper', className)}>
+          {/* <div className={classnames('home-wrapper', className)}>
             {showCol1()}
             {showCol2()}
             {showCol3()}
@@ -121,11 +121,11 @@ const Greeting = (props) => {
   );
 };
 
-Greeting.defaultProps = {
+Home.defaultProps = {
   className: '',
 };
-Greeting.propTypes = {
+Home.propTypes = {
   className: PropTypes.string,
 };
 
-export default Greeting;
+export default Home;
