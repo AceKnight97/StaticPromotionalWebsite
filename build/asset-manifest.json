@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/staticpromotionalwebsite/static/css/main.da718170.chunk.css",
-    "main.js": "/staticpromotionalwebsite/static/js/main.9e4c516d.chunk.js",
-    "main.js.map": "/staticpromotionalwebsite/static/js/main.9e4c516d.chunk.js.map",
+    "main.css": "/staticpromotionalwebsite/static/css/main.c269852f.chunk.css",
+    "main.js": "/staticpromotionalwebsite/static/js/main.e3638635.chunk.js",
+    "main.js.map": "/staticpromotionalwebsite/static/js/main.e3638635.chunk.js.map",
     "runtime-main.js": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js",
     "runtime-main.js.map": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js.map",
-    "static/css/2.4d98ed14.chunk.css": "/staticpromotionalwebsite/static/css/2.4d98ed14.chunk.css",
-    "static/js/2.f0a334ec.chunk.js": "/staticpromotionalwebsite/static/js/2.f0a334ec.chunk.js",
-    "static/js/2.f0a334ec.chunk.js.map": "/staticpromotionalwebsite/static/js/2.f0a334ec.chunk.js.map",
+    "static/css/2.fe5415aa.chunk.css": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css",
+    "static/js/2.6e68ad64.chunk.js": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js",
+    "static/js/2.6e68ad64.chunk.js.map": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.map",
     "index.html": "/staticpromotionalwebsite/index.html",
-    "static/css/2.4d98ed14.chunk.css.map": "/staticpromotionalwebsite/static/css/2.4d98ed14.chunk.css.map",
-    "static/css/main.da718170.chunk.css.map": "/staticpromotionalwebsite/static/css/main.da718170.chunk.css.map",
-    "static/js/2.f0a334ec.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.f0a334ec.chunk.js.LICENSE.txt",
+    "static/css/2.fe5415aa.chunk.css.map": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css.map",
+    "static/css/main.c269852f.chunk.css.map": "/staticpromotionalwebsite/static/css/main.c269852f.chunk.css.map",
+    "static/js/2.6e68ad64.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.LICENSE.txt",
     "static/media/biocare.ee93e369.svg": "/staticpromotionalwebsite/static/media/biocare.ee93e369.svg",
     "static/media/cardiac.232fdf9a.svg": "/staticpromotionalwebsite/static/media/cardiac.232fdf9a.svg",
     "static/media/css3.03390e7c.svg": "/staticpromotionalwebsite/static/media/css3.03390e7c.svg",
@@ -19,7 +19,7 @@
     "static/media/graphql.e335785b.svg": "/staticpromotionalwebsite/static/media/graphql.e335785b.svg",
     "static/media/html.b52d43b6.svg": "/staticpromotionalwebsite/static/media/html.b52d43b6.svg",
     "static/media/js.42de09c1.svg": "/staticpromotionalwebsite/static/media/js.42de09c1.svg",
-    "static/media/logo.6ce24c58.svg": "/staticpromotionalwebsite/static/media/logo.6ce24c58.svg",
+    "static/media/mac2.de70cc47.svg": "/staticpromotionalwebsite/static/media/mac2.de70cc47.svg",
     "static/media/mdm.bea6dc0b.svg": "/staticpromotionalwebsite/static/media/mdm.bea6dc0b.svg",
     "static/media/myAvatar.a74f52ab.jpg": "/staticpromotionalwebsite/static/media/myAvatar.a74f52ab.jpg",
     "static/media/nano.8253c53e.png": "/staticpromotionalwebsite/static/media/nano.8253c53e.png",
@@ -31,9 +31,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.80bf756d.js",
-    "static/css/2.4d98ed14.chunk.css",
-    "static/js/2.f0a334ec.chunk.js",
-    "static/css/main.da718170.chunk.css",
-    "static/js/main.9e4c516d.chunk.js"
+    "static/css/2.fe5415aa.chunk.css",
+    "static/js/2.6e68ad64.chunk.js",
+    "static/css/main.c269852f.chunk.css",
+    "static/js/main.e3638635.chunk.js"
   ]
 }
