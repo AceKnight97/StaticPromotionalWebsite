@@ -44,6 +44,8 @@ export const MEMBER_INFO = [
     email: 'tttriet1997@gmail.com',
     phone: '+84 819 541 897',
     others: 'Blender 3D, Figma',
+    isExtra: true,
+    url: '/my-cv',
   },
   {
     icon: aceAvatar,

@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import _ from 'lodash';
-import { Card } from 'antd';
+import { Card, Button } from 'antd';
 
 const MemberCard = (props) => {
   const {
-    className, data,
+    className, data, isExtra, onClickExtra,
   } = props;
-  console.log({ data });
+
   const {
     icon, name, dob,
     role, skills, exp, programming,
@@ -21,12 +21,6 @@ const MemberCard = (props) => {
 
       <div className='member-card-name-dob'>
         <span>{`${name} - ${dob}`}</span>
-        {/* <div>
-          <span>{name}</span>
-        </div>
-        <div>
-          <span>{dob}</span>
-        </div> */}
       </div>
     </div>
   );
@@ -76,11 +70,17 @@ const MemberCard = (props) => {
     </div>
   );
 
+  const extra = () => (
+    <Button onClick={onClickExtra}>
+      more
+    </Button>
+  );
+
   return (
     <div className={classnames('member-card', className)}>
       <Card
         hoverable
-        extra={undefined}
+        extra={isExtra ? extra() : undefined}
         title={renderTitle()}
       >
         {renderContent()}
@@ -92,11 +92,15 @@ MemberCard.defaultProps = {
   data: {},
   className: '',
   name: '',
+  isExtra: false,
+  onClickExtra: () => {},
 };
 MemberCard.propTypes = {
   data: PropTypes.shape(),
   className: PropTypes.string,
   name: PropTypes.string,
+  isExtra: PropTypes.bool,
+  onClickExtra: PropTypes.func,
 };
 
 export default MemberCard;

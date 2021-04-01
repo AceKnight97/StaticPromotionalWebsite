@@ -22,7 +22,8 @@ const MyCV2 = () => {
       setState({ isShowDetails: false });
       return;
     }
-    history.push(PAGE_MANAGER.HOME);
+    // history.push(PAGE_MANAGER.HOME);
+    history.goBack();
   };
 
   const onClickDetailCV = () => {
