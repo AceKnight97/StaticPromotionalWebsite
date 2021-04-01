@@ -13,7 +13,7 @@ const OurTeam = (props) => {
     <div className='our-team-container'>
       {
         _.map(MEMBER_INFO, (x, i) => (
-          <MemberCard data={x} key={i} />
+          <MemberCard className={i !== 0 ? 'mt24' : ''} data={x} key={i} />
         ))
       }
     </div>

@@ -18,20 +18,19 @@ export const temp = [
 ];
 
 export const MEMBER_INFO = [
-  // {
-  //   icon: '',
-  //   name: '',
-  //   dob: '',
-
-  //   role: '',
-  //   skills: '',
-  //   exp: '',
-  //   programming: '',
-  //   hobbies: '',
-  //   email: '',
-  //   phone: '',
-  //   others: '',
-  // },
+  {
+    icon: aceAvatar,
+    name: 'Khang Hua',
+    dob: '21/10/1998',
+    role: 'Back-end developer',
+    skills: 'MongoDB, Docker, Kubernetes, Jenkins',
+    exp: '1.5+ years',
+    programming: 'Javascript, Python, Go',
+    hobbies: 'Music, Books, Game',
+    email: 'khanghua1505@gmail.com',
+    phone: '+84 032 692 4848',
+    others: 'GraphQL, MySQL',
+  },
   {
     icon: aceAvatar,
     name: 'Truong Thanh Triet',
@@ -46,18 +45,17 @@ export const MEMBER_INFO = [
     phone: '+84 819 541 897',
     others: 'Blender 3D, Figma',
   },
-  // {
-  //   icon: '',
-  //   name: '',
-  //   dob: '',
-
-  //   role: '',
-  //   skills: '',
-  //   exp: '',
-  //   programming: '',
-  //   hobbies: '',
-  //   email: '',
-  //   phone: '',
-  //   others: '',
-  // },
+  {
+    icon: aceAvatar,
+    name: 'Lê Hữu Lý',
+    dob: '30/07/1996',
+    role: 'Front-end developer',
+    skills: 'CSS, HTML',
+    exp: '2+ years',
+    programming: 'ReactJS, React Native',
+    hobbies: 'volleyball, badminton',
+    email: 'lehuuly1512313@gmail.com',
+    phone: '+84 868 838 871',
+    others: '',
+  },
 ];
