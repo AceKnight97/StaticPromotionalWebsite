@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/staticpromotionalwebsite/static/css/main.c269852f.chunk.css",
-    "main.js": "/staticpromotionalwebsite/static/js/main.e3638635.chunk.js",
-    "main.js.map": "/staticpromotionalwebsite/static/js/main.e3638635.chunk.js.map",
+    "main.css": "/staticpromotionalwebsite/static/css/main.39273efd.chunk.css",
+    "main.js": "/staticpromotionalwebsite/static/js/main.0dfd82d5.chunk.js",
+    "main.js.map": "/staticpromotionalwebsite/static/js/main.0dfd82d5.chunk.js.map",
     "runtime-main.js": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js",
     "runtime-main.js.map": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js.map",
     "static/css/2.fe5415aa.chunk.css": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6e68ad64.chunk.js.map": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.map",
     "index.html": "/staticpromotionalwebsite/index.html",
     "static/css/2.fe5415aa.chunk.css.map": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css.map",
-    "static/css/main.c269852f.chunk.css.map": "/staticpromotionalwebsite/static/css/main.c269852f.chunk.css.map",
+    "static/css/main.39273efd.chunk.css.map": "/staticpromotionalwebsite/static/css/main.39273efd.chunk.css.map",
     "static/js/2.6e68ad64.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.LICENSE.txt",
     "static/media/biocare.ee93e369.svg": "/staticpromotionalwebsite/static/media/biocare.ee93e369.svg",
     "static/media/cardiac.232fdf9a.svg": "/staticpromotionalwebsite/static/media/cardiac.232fdf9a.svg",
@@ -19,6 +19,8 @@
     "static/media/graphql.e335785b.svg": "/staticpromotionalwebsite/static/media/graphql.e335785b.svg",
     "static/media/html.b52d43b6.svg": "/staticpromotionalwebsite/static/media/html.b52d43b6.svg",
     "static/media/js.42de09c1.svg": "/staticpromotionalwebsite/static/media/js.42de09c1.svg",
+    "static/media/khanghua.7c1cecc5.jpg": "/staticpromotionalwebsite/static/media/khanghua.7c1cecc5.jpg",
+    "static/media/leehuuly.a92e6678.jpg": "/staticpromotionalwebsite/static/media/leehuuly.a92e6678.jpg",
     "static/media/mac2.de70cc47.svg": "/staticpromotionalwebsite/static/media/mac2.de70cc47.svg",
     "static/media/mdm.bea6dc0b.svg": "/staticpromotionalwebsite/static/media/mdm.bea6dc0b.svg",
     "static/media/myAvatar.a74f52ab.jpg": "/staticpromotionalwebsite/static/media/myAvatar.a74f52ab.jpg",
@@ -33,7 +35,7 @@
     "static/js/runtime-main.80bf756d.js",
     "static/css/2.fe5415aa.chunk.css",
     "static/js/2.6e68ad64.chunk.js",
-    "static/css/main.c269852f.chunk.css",
-    "static/js/main.e3638635.chunk.js"
+    "static/css/main.39273efd.chunk.css",
+    "static/js/main.0dfd82d5.chunk.js"
   ]
 }
