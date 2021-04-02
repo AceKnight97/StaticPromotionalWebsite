@@ -37,7 +37,9 @@ const OurTeam = (props) => {
 
       <div className='our-team-main'>
         {renderMainView()}
+
       </div>
+      <div className='place-holder' />
     </div>
   );
 };

@@ -72,12 +72,13 @@ const MainHeader = (props) => {
           <Item key={HOME_HEADER[3]}>
             {HOME_HEADER[3]}
           </Item>
-          <Item key={HOME_HEADER[4]}>
+
+          {/* <Item key={HOME_HEADER[4]}>
             <a href={HOME_PAGE} target='_blank' rel='noopener noreferrer'>
               {HOME_HEADER[4]}
             </a>
           </Item>
-          {/* <SubMenu key={HOME_HEADER[2]} title='Navigation Three - Submenu'>
+          <SubMenu key={HOME_HEADER[2]} title='Navigation Three - Submenu'>
             <ItemGroup title='Item 1'>
               <Item key='setting:1'>Option 1</Item>
               <Item key='setting:2'>Option 2</Item>

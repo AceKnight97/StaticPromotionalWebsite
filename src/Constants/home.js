@@ -3,7 +3,7 @@ export const HOME_HEADER = [
   'Business',
   'Contact',
   'Document',
-  'GitLab',
+  // 'GitLab',
 ];
 
 export const BUSINESS_FIELDS = [

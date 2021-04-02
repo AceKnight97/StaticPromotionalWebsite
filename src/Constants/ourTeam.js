@@ -1,4 +1,6 @@
-import aceAvatar from '../Images/Pages/CVs/myAvatar.jpg';
+import triet from '../Images/Pages/CVs/myAvatar.jpg';
+import khanghua from '../Images/Pages/OurTeam/khanghua.jpg';
+import leehuuly from '../Images/Pages/OurTeam/leehuuly.jpg';
 
 export const temp = [
   {
@@ -19,7 +21,7 @@ export const temp = [
 
 export const MEMBER_INFO = [
   {
-    icon: aceAvatar,
+    icon: khanghua,
     name: 'Khang Hua',
     dob: '21/10/1998',
     role: 'Back-end developer',
@@ -32,7 +34,7 @@ export const MEMBER_INFO = [
     others: 'GraphQL, MySQL',
   },
   {
-    icon: aceAvatar,
+    icon: triet,
     name: 'Truong Thanh Triet',
     dob: '05/08/1997',
 
@@ -48,7 +50,7 @@ export const MEMBER_INFO = [
     url: '/my-cv',
   },
   {
-    icon: aceAvatar,
+    icon: leehuuly,
     name: 'Lê Hữu Lý',
     dob: '30/07/1996',
     role: 'Front-end developer',
