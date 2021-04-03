@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/staticpromotionalwebsite/static/css/main.39273efd.chunk.css",
-    "main.js": "/staticpromotionalwebsite/static/js/main.0dfd82d5.chunk.js",
-    "main.js.map": "/staticpromotionalwebsite/static/js/main.0dfd82d5.chunk.js.map",
+    "main.css": "/staticpromotionalwebsite/static/css/main.e0e52de7.chunk.css",
+    "main.js": "/staticpromotionalwebsite/static/js/main.7f03c09d.chunk.js",
+    "main.js.map": "/staticpromotionalwebsite/static/js/main.7f03c09d.chunk.js.map",
     "runtime-main.js": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js",
     "runtime-main.js.map": "/staticpromotionalwebsite/static/js/runtime-main.80bf756d.js.map",
     "static/css/2.fe5415aa.chunk.css": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css",
-    "static/js/2.6e68ad64.chunk.js": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js",
-    "static/js/2.6e68ad64.chunk.js.map": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.map",
+    "static/js/2.5011b184.chunk.js": "/staticpromotionalwebsite/static/js/2.5011b184.chunk.js",
+    "static/js/2.5011b184.chunk.js.map": "/staticpromotionalwebsite/static/js/2.5011b184.chunk.js.map",
     "index.html": "/staticpromotionalwebsite/index.html",
     "static/css/2.fe5415aa.chunk.css.map": "/staticpromotionalwebsite/static/css/2.fe5415aa.chunk.css.map",
-    "static/css/main.39273efd.chunk.css.map": "/staticpromotionalwebsite/static/css/main.39273efd.chunk.css.map",
-    "static/js/2.6e68ad64.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.6e68ad64.chunk.js.LICENSE.txt",
+    "static/css/main.e0e52de7.chunk.css.map": "/staticpromotionalwebsite/static/css/main.e0e52de7.chunk.css.map",
+    "static/js/2.5011b184.chunk.js.LICENSE.txt": "/staticpromotionalwebsite/static/js/2.5011b184.chunk.js.LICENSE.txt",
     "static/media/biocare.ee93e369.svg": "/staticpromotionalwebsite/static/media/biocare.ee93e369.svg",
     "static/media/cardiac.232fdf9a.svg": "/staticpromotionalwebsite/static/media/cardiac.232fdf9a.svg",
     "static/media/css3.03390e7c.svg": "/staticpromotionalwebsite/static/media/css3.03390e7c.svg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.80bf756d.js",
     "static/css/2.fe5415aa.chunk.css",
-    "static/js/2.6e68ad64.chunk.js",
-    "static/css/main.39273efd.chunk.css",
-    "static/js/main.0dfd82d5.chunk.js"
+    "static/js/2.5011b184.chunk.js",
+    "static/css/main.e0e52de7.chunk.css",
+    "static/js/main.7f03c09d.chunk.js"
   ]
 }
