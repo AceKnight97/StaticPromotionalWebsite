@@ -10,6 +10,7 @@ import macIc from '../../Images/Pages/Home/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
 import MainHeader from '../Common/mainHeader';
+import MainFooter from '../Common/mainFooter';
 
 const Home = () => {
   const history = useHistory();
@@ -101,13 +102,9 @@ const Home = () => {
             <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
 
           </div>
-
-          {/* <div className={classnames('home-wrapper', className)}>
-            {showCol1()}
-            {showCol2()}
-            {showCol3()}
-          </div> */}
         </div>
+
+        <MainFooter />
 
       </div>
     </>
