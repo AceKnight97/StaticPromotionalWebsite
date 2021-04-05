@@ -9,6 +9,8 @@ import { useMergeState } from '../../Helpers/customHooks';
 import MainHeader from '../Common/mainHeader';
 import InputCT from '../../Components/Input/inputCT';
 
+import MainFooter from '../Common/mainFooter';
+
 init(apiKeys.USER_ID);
 
 const Contact = (props) => {
@@ -145,6 +147,7 @@ const Contact = (props) => {
       <div className='contact-main'>
         {showInputForm()}
       </div>
+      <MainFooter />
     </div>
   );
 };

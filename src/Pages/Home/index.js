@@ -92,22 +92,20 @@ const Home = () => {
   };
 
   return (
-    <>
-      <div className='home'>
+    <div className='home'>
 
-        <MainHeader />
+      <MainHeader />
 
-        <div className='home-pad'>
-          <div className='home-introduct'>
-            <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
+      <div className='home-pad'>
+        <div className='home-introduct'>
+          <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
 
-          </div>
         </div>
-
-        <MainFooter />
-
       </div>
-    </>
+
+      <MainFooter />
+
+    </div>
   );
 };
 
