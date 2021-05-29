@@ -141,13 +141,8 @@ const Contact = (props) => {
   );
 
   return (
-    <div className='contact'>
-      <MainHeader />
-
-      <div className='contact-main'>
-        {showInputForm()}
-      </div>
-      <MainFooter />
+    <div className='contact-main'>
+      {showInputForm()}
     </div>
   );
 };

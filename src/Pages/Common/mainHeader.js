@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 // import classnames from 'classnames';
 import { Menu, Button } from 'antd';
 import { useHistory, useLocation } from 'react-router-dom';
@@ -15,40 +15,19 @@ const {
 } = PAGE_MANAGER;
 
 const MainHeader = (props) => {
-  const history = useHistory();
-  const location = useLocation();
-  // console.log({ location });
-  const [state, setState] = useMergeState({
-    current: false,
-  });
+  const { current, onUpdateCurrent } = props;
 
   const onClickHome = () => {
-    if (!location.pathname?.includes(HOME)) {
-      history.push(HOME);
+    if (current !== HOME) {
+      onUpdateCurrent(HOME);
     }
   };
 
   const handleClick = (e) => {
-    if (e.key !== state.current) {
-      switch (e.key) {
-        case HOME_HEADER[0]:
-          history.push(OUR_TEAM);
-          break;
-        case HOME_HEADER[1]:
-          break;
-        case HOME_HEADER[2]:
-          history.push(CONTACT);
-          break;
-        case HOME_HEADER[3]:
-          break;
-        default:
-          break;
-      }
-      setState({ current: e.key });
+    if (e.key !== current) {
+      onUpdateCurrent(e.key);
     }
   };
-
-  const { current } = state;
 
   return (
     <div className='home-header'>
@@ -95,8 +74,12 @@ const MainHeader = (props) => {
 };
 
 MainHeader.defaultProps = {
+  current: HOME,
+  onUpdateCurrent: () => {},
 };
 MainHeader.propTypes = {
+  current: PropTypes.string,
+  onUpdateCurrent: PropTypes.func,
 };
 
 export default MainHeader;

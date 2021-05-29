@@ -1,109 +1,92 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-// import classnames from 'classnames';
 import { useHistory } from 'react-router-dom';
 import _ from 'lodash';
 import { } from 'antd';
-// import { useMergeState } from '../../Helpers/customHooks';
-// import logo from '../../logo.svg';
 import macIc from '../../Images/Pages/Home/mac2.svg';
 import ButtonCT from '../../Components/Buttons';
 
 import MainHeader from '../Common/mainHeader';
 import MainFooter from '../Common/mainFooter';
+import { useMergeState } from '../../Helpers/customHooks';
+import { PAGE_MANAGER } from '../../Constants';
+import { HOME_HEADER } from '../../Constants/home';
+import OurTeam from '../OurTeam';
+import Contact from '../Contact';
+
+const {
+  HOME, CONTACT, OUR_TEAM, // MY_CV, HOME_PAGE,
+} = PAGE_MANAGER;
 
 const Home = () => {
   const history = useHistory();
+  const [state, setState] = useMergeState({
+    current: HOME,
+  });
 
-  const showCol1 = () => {
-    const titleArr = [
-      {
-        title: 'My CV',
-        onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-      {
-        title: 'Buy website',
-        // onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-      {
-        title: 'Hire Tour Guide In Hochiminh City',
-        // onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-    ];
-    return (
-      <div className='col-ct'>
-        {_.map(titleArr, (x, i) => (
-          <ButtonCT
-            key={i}
-            onClick={x.onClick}
-            type={x.type}
-            className='col-btn'
-            title={x.title}
-          />
-        ))}
-      </div>
-    );
+  const { current } = state;
+
+  const onUpdateCurrent = (newCurrent) => {
+    console.log({ newCurrent });
+    switch (newCurrent) {
+      case HOME_HEADER[0]:
+        if (current !== OUR_TEAM) {
+          setState({ current: OUR_TEAM });
+        }
+        break;
+      case HOME_HEADER[1]:
+        break;
+      case HOME_HEADER[2]:
+        if (current !== CONTACT) {
+          setState({ current: CONTACT });
+        }
+        break;
+      case HOME_HEADER[3]:
+        break;
+      default:
+        if (current !== HOME) {
+          setState({ current: HOME });
+        }
+        break;
+    }
   };
 
-  const showCol2 = () => (
-    <div className='col-ct'>
-      {/* //type='primary' */}
-      <ButtonCT className='col-btn' title='Vietnam Real Estate Invest/Trading' />
+  const mainView = () => {
+    switch (current) {
+      case HOME: {
+        return (
+          <div className='home-main'>
+            <div className='home-introduct'>
+              <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
 
-      <div />
-      <ButtonCT className='col-btn' title='Buy Website' />
-    </div>
-  );
-
-  const showCol3 = () => {
-    const titleArr = [
-      {
-        title: 'Rent Home/Store',
-        // onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-      {
-        title: 'Hochiminh Assistant',
-        // onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-      {
-        title: 'Everything In The World',
-        // onClick: () => history.push('/my-cv'),
-        // type: 'primary',
-      },
-    ];
-    return (
-      <div className='col-ct'>
-        {_.map(titleArr, (x, i) => (
-          <ButtonCT
-            key={i}
-            onClick={x.onClick}
-            type={x.type}
-            className='col-btn'
-            title={x.title}
-          />
-        ))}
-      </div>
-    );
+            </div>
+          </div>
+        );
+      }
+      case OUR_TEAM: {
+        return <OurTeam />;
+      }
+      case CONTACT: {
+        return <Contact />;
+      }
+      default:
+        return null;
+    }
   };
 
   return (
     <div className='home'>
 
-      <MainHeader />
+      <MainHeader
+        current={current}
+        onUpdateCurrent={onUpdateCurrent}
+      />
 
-      <div className='home-pad'>
-        <div className='home-introduct'>
-          <img src={macIc} className='home-introduct-icon' alt='Mac icon' />
+      {mainView()}
 
-        </div>
-      </div>
-
-      <MainFooter />
+      <MainFooter
+        onUpdateCurrent={onUpdateCurrent}
+      />
 
     </div>
   );

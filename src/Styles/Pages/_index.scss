@@ -4,6 +4,10 @@
 @import "../../Pages/OurTeam/Style/index";
 @import "../../Pages/Common/Style/index";
 
+.ant-menu-item {
+  height: 100%;
+}
+
 .home,
 .contact,
 .our-team {
@@ -15,10 +19,10 @@
 
   &-main {
     padding: 0 5%;
-    margin-top: 10%;
+    margin-top: 6.5%;
+    margin-bottom: 1.5%;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;

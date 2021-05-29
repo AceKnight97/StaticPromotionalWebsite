@@ -1,41 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import _ from 'lodash';
 import { Button } from 'antd';
 import { SkypeFilled, FacebookFilled } from '@ant-design/icons';
-import { useMergeState } from '../../Helpers/customHooks';
+import { HOME_HEADER } from '../../Constants/home';
 
 const FACE_BOOK = 'https://www.facebook.com/profile.php?id=100015087697713';
 
 const MainFooter = (props) => {
-  const [state, setState] = useMergeState({
-    data: [],
-  });
-  const { className } = props;
-
+  const { className, onUpdateCurrent } = props;
   return (
     <div className={classnames('main-footer', className)}>
 
       <div className='skype'>
-        <SkypeFilled
-          className='footer-icon'
-        />
-        <div className='email'>
-          <span>tttriet1997@gmail.com</span>
-        </div>
+        <SkypeFilled className='footer-icon' />
+        <Button
+          onClick={() => {
+            onUpdateCurrent(HOME_HEADER[2]);
+          }}
+          type='link'
+          className='email'
+        >
+          tttriet1997@gmail.com
+        </Button>
       </div>
 
       <div className='facebook'>
-        <FacebookFilled
-          className='footer-icon facebook-color'
-        />
+        <FacebookFilled className='footer-icon facebook-color' />
         <Button
           onClick={() => window.open(FACE_BOOK, '')}
           type='link'
           className='email'
         >
-          {FACE_BOOK}
+          Facebook
         </Button>
       </div>
 
@@ -44,9 +41,11 @@ const MainFooter = (props) => {
 };
 MainFooter.defaultProps = {
   className: '',
+  onUpdateCurrent: () => {},
 };
 MainFooter.propTypes = {
   className: PropTypes.string,
+  onUpdateCurrent: PropTypes.func,
 };
 
 export default MainFooter;
