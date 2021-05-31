@@ -11,6 +11,7 @@ import { PAGE_MANAGER } from '../Constants';
 
 import Home from './Home';
 import MyCV from './CVs';
+import LightNovel from './LightNovel';
 
 const Main = (props) => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const Main = (props) => {
         <Switch>
           <Route path='/staticpromotionalwebsite' name='Home' component={Home} />
           <Route path='/my-cv' name='My CV' component={MyCV} />
+          <Route path='/light-novel' name='My Light Novel' component={LightNovel} />
           <Redirect path='/' to={{ pathname: PAGE_MANAGER.HOME }} />
         </Switch>
       </Router>

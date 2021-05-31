@@ -19,4 +19,5 @@ export const PAGE_MANAGER = {
   MY_CV: '/my-cv',
   BUSINESS: '/business',
   CONTACT: '/contact',
+  LIGHT_NOVEL: '/light-novel',
 };
