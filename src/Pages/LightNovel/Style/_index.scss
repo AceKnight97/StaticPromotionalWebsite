@@ -1,3 +1,5 @@
+@import "./Layout/index";
+
 .light-novel {
   height: 100%;
   display: flex;
@@ -7,14 +9,16 @@
     justify-content: center;
     align-items: center;
     height: 64px;
+    min-height: 64px;
     font-size: 28px;
     font-weight: bold;
     border-bottom: 1px solid $gray-5;
   }
   &-body {
-    padding: 3% 5%;
+    padding: 3% 48px;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   &-title {
     font-size: 22px;
@@ -23,10 +27,14 @@
   }
   &-chapter {
     margin-top: 4px;
-    padding-bottom: 4px;
-    border-bottom: 1px dashed $gray-5;
+    border-bottom: 1px dashed $gray-5 !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
     &:hover {
-      text-decoration: underline #007bff;
+      text-decoration: underline #007bff !important;
     }
   }
 }

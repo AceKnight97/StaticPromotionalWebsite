@@ -1,40 +1,60 @@
-import React from 'react';
 import { Button } from 'antd';
 import _ from 'lodash';
-import { Link, useHistory, useParams } from 'react-router-dom';
+import React from 'react';
 import { useMergeState } from '../../Helpers/customHooks';
-
-import { PAGE_MANAGER } from '../../Constants';
 import { PERFECT_CULTIVATOR } from './constant';
+import Chapter from './Layout/chapter';
 
 const LightNovel = () => {
-  const history = useHistory();
-  const params = useParams();
-  console.log({ params });
   const [state, setState] = useMergeState({
+    chapter: undefined,
   });
+
+  const onChange = (key, value) => {
+    setState({ [key]: value });
+  };
+
+  const goBack = () => {
+    setState({ chapter: undefined });
+  };
+
+  const { chapter } = state;
+
+  const renderList = () => (
+    <>
+      <div className='light-novel-title'>
+        Perfect Cultivator
+      </div>
+      {
+        _.map(PERFECT_CULTIVATOR, (x, index) => (
+          <Button
+            type='link'
+            key={index}
+            className='light-novel-chapter'
+            onClick={() => onChange('chapter', index)}
+          >
+            {x}
+          </Button>
+        ))
+      }
+    </>
+  );
 
   return (
     <div className='light-novel'>
       <div className='light-novel-header'>Wellcome</div>
 
       <div className='light-novel-body'>
-
-        <div className='light-novel-title'>
-          Perfect Cultivator
-        </div>
-
         {
-          _.map(PERFECT_CULTIVATOR, (x, index) => (
-            <Link
-              to='/'
-              key={index}
-              className='light-novel-chapter'
-            >
-              {x.title}
-            </Link>
-          ))
-}
+          _.isNil(chapter)
+            ? renderList() : (
+              <Chapter
+                title={PERFECT_CULTIVATOR[chapter]}
+                value={chapter}
+                goBack={goBack}
+              />
+            )
+        }
       </div>
 
     </div>

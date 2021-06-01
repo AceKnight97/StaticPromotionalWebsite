@@ -1,15 +1,6 @@
 export const temp = [];
 export const PERFECT_CULTIVATOR = [
-  {
-    title: 'Chapter 1: ',
-    value: '',
-  },
-  {
-    title: 'Chapter 2: ',
-    value: '',
-  },
-  {
-    title: 'Chapter 3: ',
-    value: '',
-  },
+  "Chapter 1: Nature's Wills",
+  'Chapter 2: Lang Trong Sinh',
+  'Chapter 3: Spirit-Gem Mountain Tree',
 ];
