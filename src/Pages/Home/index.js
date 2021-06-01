@@ -1,25 +1,18 @@
-import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { useHistory } from 'react-router-dom';
-import _ from 'lodash';
-import { } from 'antd';
-import macIc from '../../Images/Pages/Home/mac2.svg';
-import ButtonCT from '../../Components/Buttons';
-
-import MainHeader from '../Common/mainHeader';
-import MainFooter from '../Common/mainFooter';
-import { useMergeState } from '../../Helpers/customHooks';
+import React from 'react';
 import { PAGE_MANAGER } from '../../Constants';
 import { HOME_HEADER } from '../../Constants/home';
-import OurTeam from '../OurTeam';
+import { useMergeState } from '../../Helpers/customHooks';
+import macIc from '../../Images/Pages/Home/mac-min.jpg';
+import MainFooter from '../Common/mainFooter';
+import MainHeader from '../Common/mainHeader';
 import Contact from '../Contact';
+import OurTeam from '../OurTeam';
 
 const {
   HOME, CONTACT, OUR_TEAM, // MY_CV, HOME_PAGE,
 } = PAGE_MANAGER;
 
 const Home = () => {
-  const history = useHistory();
   const [state, setState] = useMergeState({
     current: HOME,
   });
