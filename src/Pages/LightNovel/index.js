@@ -33,7 +33,7 @@ const LightNovel = () => {
             className='light-novel-chapter'
             onClick={() => onChange('chapter', index)}
           >
-            {x}
+            {x.title}
           </Button>
         ))
       }
@@ -49,7 +49,7 @@ const LightNovel = () => {
           _.isNil(chapter)
             ? renderList() : (
               <Chapter
-                title={PERFECT_CULTIVATOR[chapter]}
+                data={PERFECT_CULTIVATOR[chapter]}
                 value={chapter}
                 goBack={goBack}
               />

@@ -17,4 +17,10 @@
   &-content {
     white-space: break-spaces;
   }
+  &-link {
+    margin-top: 16px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
 }

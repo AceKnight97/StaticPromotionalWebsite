@@ -1,19 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classnames from 'classnames';
-import _ from 'lodash';
-import { Button } from 'antd';
 import { LeftOutlined } from '@ant-design/icons';
-import { useMergeState } from '../../../Helpers/customHooks';
+import { Button } from 'antd';
+import classnames from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
 import PerfectCultivator from '../PerfectCultivator';
 
 const Chapter = (props) => {
-  const [state, setState] = useMergeState({
-    data: [],
-  });
   const {
-    className, title, value, goBack,
+    className, value, goBack, data,
   } = props;
+
+  const { title, hyperLink } = data;
+
   return (
     <div className={classnames('chapter', className)}>
       <Button
@@ -26,6 +24,14 @@ const Chapter = (props) => {
         {title}
       </div>
 
+      <a
+        href={hyperLink}
+        className='chapter-link'
+        target='blank'
+      >
+        Originary
+      </a>
+
       <div className='chapter-content'>
         {PerfectCultivator[value]}
       </div>
@@ -34,15 +40,15 @@ const Chapter = (props) => {
 };
 Chapter.defaultProps = {
   className: '',
-  title: '',
   value: 0,
-  goBack: () => {},
+  goBack: () => { },
+  data: {},
 };
 Chapter.propTypes = {
   className: PropTypes.string,
-  title: PropTypes.string,
   value: PropTypes.number,
   goBack: PropTypes.func,
+  data: PropTypes.shape(),
 };
 
 export default Chapter;
