@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const Chapter4 = `
 Chương 4: 
 
@@ -23,7 +24,58 @@ Buổi sáng như bao ngày khác ở Hoà Sinh Trấn, không khí trong lành,
 
 Lăng Trung Y dù chỉ là một tiều phu bình bình thường thường cũng biết nơi đâu nên chặt cây đốn củi, nơi nào cần trồng cây duy trì. Người trong làng cũng vậy, chăn nuôi gia súc hay trồng trọt nông nghiệp đều cũng rất đúng quy cách. Lò rèn, xưởng cưa, nơi sản xuất thuỷ tính vị trí cũng lần lượt được đặt ở ngoại ô thị trấn.
 
-Nói đến lò rèn, chủ lò rèn là một đại hán ngoài ba mươi, mới vừa dọn đến không lâu. Hắn dắt theo cả nhà ba người đến Hoà Sinh Trấn, 
+Nói đến lò rèn, chủ lò rèn là một đại hán ngoài ba mươi, mới vừa dọn đến không lâu, tên là Lê Minh Hạo. Hắn dắt theo cả nhà ba người đến Hoà Sinh Trấn mưu sinh, hắn hay gọi nương tử là Tư Nhi, trùng hợp lại làm cùng công việc với mẹ của Lăng Trọng Sinh, một thơ may a. 
+
+Một ngày nọ, Lăng Trọng Sinh được em dắt đi chợ, lúc về có ghé đến lò rèn của Minh Hạo thúc để đặt làm một số dụng cụ bếp mới. Đó cũng là lần đầu hắn thấy con gái của Min Hạo thúc, Lê Phúc Minh Trân, một tiểu cô nương cực kỳ khả ái, tính cách lại vô cùng hoạt bát.
+
+Một loại cảm giác khó có thể tả bằng lời, chỉ có cảm xúc, ký ức và ấn tượng khắc sâu.
+
+Phong Hoa Tuyết Nguyệt.
+
+Phong là xuân phong man mát, đi qua cả thời-không, khó có thể gặp lại lần nữa.
+
+Hoa là nàng, nàng đẹp tựa như hoa, thiên hạ chẳng thể sánh, gặp được nàng như xuân thuỷ ánh lệ hoa.
+
+Tuyết là ta, ta vì nàng mà tan chảy, cũng vì nàng mà hoá thành lưu thuỷ, lưu thuỷ luyến lạc hoa.
+
+Nguyệt là trăng sáng trong đêm tối, huyền bí cũng mỹ lệ tựa hồ chẳng bao giờ ta hiểu được Kính Hoa Thuỷ Nguyệt, lưu tinh cũng không thể bì. 
+
+Phải mất một lúc lâu Lăng Trọng Sinh mới có thể hoàn hồn trở lại, tâm hắn giao động không dứt, có chút quặn đau. Một loại thương hải tang điền cảm giác, đã qua một kiếp rồi nhưng hắn chưa thể quên đi mối tình đầu a.
+
+- Tiểu Sinh à, gặp người lớn phải biết lễ phép chào hỏi có biết không?
+
+Mẹ hắn nhẹ nhàng nhắc nhở một câu.
+
+Như có tâm sự Lăng Trọng Sinh vẫn bước ra, chào hỏi:
+
+- Chào thúc thúc, chào cô cô!
+
+Lăng Trọng Sinh cuối mặt xuống, hắn suy tư rất nhiều thứ.
+
+Thấy con trai mình hôm nay có gì đó không đúng, Ninh Mộng Thường nhìn vào thái độ của Lăng Trọng Sinh khi nhìn tiểu cô nương kia cũng có thể đoán ra một ít. Nàng kinh nghi bất định một hồi rồi thở dài một cái, tiểu Trọng Sinh cũng còn quá nhỏ a.
+
+Ninh Mộng Thường có nói chuyện với Tư Nhi mấy câu rồi dắt Lăng Trọng Sinh trở về nhà. Nàng còn để ý thấy Tiểu Trọng Sinh có lén nhìn tiểu Minh Trân kia thêm mấy lần, vương vấn không nguôi, hẳn là nàng đón không sai.
+
+Chuyện này nàng chỉ để trong lòng, vẫn không có làm ra cái gì, chỉ là khi nào có cơ hội muốn đến tìm Tư Nhin nói chuyện sẽ dẫn theo tiểu Trọng Sinh.
+
+Mấy tháng trôi qua từ cái ngày Lăng Trọng Sinh Phát hiện ra thiên nhiên ẩn nặc trận pháp, hắn dùng hầu hết thời gian ở bên ngoài kiêu chiến đủ loại yêu thú tu vi từ thấp đến cao trong Thập Tử Sâm Lâm để tu thể. Cuối cùng Lăng Trọng Sinh cũng đã đột phá tầng 8 Kim Cương Thể.
+
+Sát Thần Ám Đạo Quyết cùng Sát Thần Luyện Thức Quyết đạt Kết Đan kỳ đỉnh phòng, Sát Thần Cực Thể Quyết cảnh giới đầu tiên - Kim Cương Thể tầng 8. Thân thể rắn chắc đến mức dưới Hoá Kiếp cảnh yêu thú không để tổn thương. Với thực lực này, hắn dùng cả ba ám ảnh là đã có thể đối phó với đầu Miên Hoa Sư Vương bất phân thắng bại. Nếu tính cả bản thể vào, chắc chắn Miên Hoa Sư Vương phải nhận lại thất bại.
+
+Nếu Lăng Trọng Sinh thực sự muốn lấy mạng Miên Hoa Sư Vương phải nói là dễ như lấy đồ trong túi, hắn chỉ cần nhân lúc Miên Hoa Sư Vương giao đấu ba ám ảnh mà ra tay toàn lực đánh lén một kích đắt thủ.
+
+Khi không giết đi một đại yêu thú trong Thập Tử Sâm Lâm, điều này sẽ ảnh hướng lớn đến khu rừng, không phải là việc hắn nên làm, huống chi yêu thú cùng hắn có ân lại không oán. Từ khi bắt đầu giao đấu, yêu thú đã tỏ thái độ kiêng kỵ hắn không thôi, hắn cũng thông qua ám ảnh nói cho Miên Hoa Sư Vương rằng mình chỉ muốn thử thực lực của bản thân, không có ác ý.
+
+Càng kinh lịch nhiều, điểm yếu của Lăng Trọng Sinh dần hiển lộ, đó chính là kiến thức. Nếu hắn sớm biết Miên Hoa Sư Vương ngoài hoả hệ sóng công kích còn có thể kết hợp cuồn phong lốc xoáy trong chóp mắt hạ thủ thì sẽ không ăn nhiều thua thiệt.
+
+Thế nên Lăng Trọng Sinh thông qua mấy tháng luyện thể cũng thu thập được vô số đồ đạc từ những người xấu số bỏ mạng để lại trong Thập Tử Sâm Lâm. Hắn xem thầy chỉ là một số tầm thường đồ vật cùng pháp bảo, pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
+
+Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, Bát Đại Phụ Trợ cho tu luyện giả cùng mấy quyển sinh thời nhật ký, tâm đắc,...
+
+
+
+
+
 
 
 
