@@ -6,13 +6,13 @@ Cẩn thận dùng thần thức dò xét qua mấy lần, Lăng Trọng Sinh l�
 
 Lấy bản sự của hắn bây giờ còn chưa thể phát hiện được một cái cao cấp thiên nhiên ẩn nặc trận pháp như vậy, không phải nói Sát Thần Thức Đạo Quyết không đủ mà là tu vi của hắn còn quá thấp.
 
-Cũng chính vì một quyền toàn lực ầm ra khi nãy, hắn dùng đi tất cả thực lực của bản thân, không giữ lại bất cứ thứ gì. Đánh bậy đánh bạ mà vô tình công phá một cái thiên nhiên ẩn nặc trận pháp.
+Cũng chính vì một quyền toàn lực ầm ra khi nãy, hắn dùng đi tất cả thực lực của bản thân, đánh bậy đánh bạ mà vô tình công phá một cái thiên nhiên ẩn nặc trận pháp.
 
-Vẫn đứng đó kinh nghi bất định Lăng Trọng Sinh đang trong trầm tư suy nghĩ. Hắn đang lo lắng không biết thứ bên trong trận pháp kia là phúc hay hoạ, biết đâu bên trong là một thứ gì đó kinh khủng có thể làm thịt hắn bất cứ lúc nào.
+Vẫn đứng đó kinh nghi bất định Lăng Trọng Sinh trầm tư suy nghĩ. Hắn đang lo lắng không biết thứ bên trong trận pháp kia là phúc hay hoạ, biết đâu bên trong là một thứ gì đó kinh khủng có thể làm thịt hắn bất cứ lúc nào.
 
-Lăng Trọng Sinh tâm tình có chút xuống thấp, từ lúc bắt đầu lịch luyện, hắn thấy qua không ít trận pháp của các tu sĩ khác để lại, một số bỏ mạng trong chiến đấu, cũng có một số bị yêu thú đuổi giết mà không kịp thu hồi. Tuy nhiên tất cả những trận pháp ấy Lăng Trọng Sinh không để vào mắt một cái, cũng là do hắn quá chủ quan nghĩ rằng dưới thần thức đủ mạnh thì trận pháp cũng chỉ vật trang trí.
+Lăng Trọng Sinh tâm tình có chút xuống thấp, từ lúc bắt đầu lịch luyện, hắn thấy qua không ít trận pháp của các tu sĩ khác để lại, một số bỏ mạng trong chiến đấu, cũng có một số bị yêu thú đuổi giết mà không kịp thu hồi. Tuy nhiên, tất cả những trận pháp ấy Lăng Trọng Sinh không để vào mắt một cái, cũng là do hắn quá chủ quan nghĩ rằng dưới thần thức đủ mạnh thì trận pháp cũng chỉ vật trang trí.
 
-Giờ đây một cái thiên nhiên ẩn nặc trận pháp thôi cũng khiến hắn phải thật cẩn thận suy tính. Giả sử có một từ trận pháp bất ngờ xông ra đánh lén hắn, chưa nói đến thực lực kẻ đó mạnh đến đâu, chỉ việc đánh lén thôi đã rất nguy hiểm, huống hồ muốn trốn được trong trận pháp, bản sự này hắn không có, nói lên người kia phải có điểm hơn hắn.
+Giờ đây một cái thiên nhiên ẩn nặc trận pháp thôi cũng khiến hắn phải thật cẩn thận suy tính. Giả sử có một kẻ từ trận pháp bất ngờ xông ra đánh lén hắn, chưa nói đến thực lực kẻ đó mạnh đến đâu, chỉ việc đánh lén thôi đã rất nguy hiểm, huống hồ muốn trốn được trong trận pháp, bản sự này hắn không có, nói lên người kia phải có điểm hơn hắn.
 
 Lăng Trọng Sinh không muốn mạo hiểm, hắn quyết định tạm thời Không vội công phá, tiến vào cái thiên nhiên ẩn nặc trận pháp này, nên quay về trước hảo hảo tu luyện Kim Cương Thể cái rồi tính. Cái thiên nhiên ẩn nặc trận pháp này nằm ở đây không biết bao nhiêu tuế nguyệt, nếu có người khác phát hiện thì đã sớm không còn thứ gì tốt. 
 
@@ -26,7 +26,7 @@ Lăng Trung Y dù chỉ là một tiều phu bình bình thường thường cũ
 
 Nói đến lò rèn, chủ lò rèn là một đại hán ngoài ba mươi, mới vừa dọn đến không lâu, tên là Lê Minh Hạo. Hắn dắt theo cả nhà ba người đến Hoà Sinh Trấn mưu sinh, hắn hay gọi nương tử là Tư Nhi, trùng hợp lại làm cùng công việc với mẹ của Lăng Trọng Sinh, một thơ may a. 
 
-Một ngày nọ, Lăng Trọng Sinh được em dắt đi chợ, lúc về có ghé đến lò rèn của Minh Hạo thúc để đặt làm một số dụng cụ bếp mới. Đó cũng là lần đầu hắn thấy con gái của Min Hạo thúc, Lê Phúc Minh Trân, một tiểu cô nương cực kỳ khả ái, tính cách lại vô cùng hoạt bát.
+Một ngày nọ, Lăng Trọng Sinh được mẹ dắt đi chợ, lúc về có ghé đến lò rèn của Minh Hạo thúc để đặt làm một số dụng cụ bếp mới. Đó cũng là lần đầu hắn thấy con gái của Min Hạo thúc, Lê Phúc Minh Trân, một tiểu cô nương cực kỳ khả ái, tính cách lại vô cùng hoạt bát.
 
 Một loại cảm giác khó có thể tả bằng lời, chỉ có cảm xúc, ký ức và ấn tượng khắc sâu.
 
@@ -52,23 +52,25 @@ Như có tâm sự Lăng Trọng Sinh vẫn bước ra, chào hỏi:
 
 Lăng Trọng Sinh cuối mặt xuống, hắn suy tư rất nhiều thứ.
 
-Thấy con trai mình hôm nay có gì đó không đúng, Ninh Mộng Thường nhìn vào thái độ của Lăng Trọng Sinh khi nhìn tiểu cô nương kia cũng có thể đoán ra một ít. Nàng kinh nghi bất định một hồi rồi thở dài một cái, tiểu Trọng Sinh cũng còn quá nhỏ a.
+Thấy con trai mình hôm nay có gì đó không đúng, Ninh Mộng Thường nhìn vào thái độ của Lăng Trọng Sinh khi nhìn tiểu cô nương kia cũng có thể đoán ra một ít. Nàng kinh nghi bất định một hồi rồi cười tủm tỉm một cái, tiểu Trọng Sinh cũng còn quá nhỏ a.
 
 Ninh Mộng Thường có nói chuyện với Tư Nhi mấy câu rồi dắt Lăng Trọng Sinh trở về nhà. Nàng còn để ý thấy Tiểu Trọng Sinh có lén nhìn tiểu Minh Trân kia thêm mấy lần, vương vấn không nguôi, hẳn là nàng đón không sai.
 
-Chuyện này nàng chỉ để trong lòng, vẫn không có làm ra cái gì, chỉ là khi nào có cơ hội muốn đến tìm Tư Nhin nói chuyện sẽ dẫn theo tiểu Trọng Sinh.
+Chuyện này nàng chỉ để trong lòng, vẫn không có làm ra cái gì, chỉ là khi nào có cơ hội muốn đến tìm Tư Nhi nói chuyện phiếm sẽ dẫn theo tiểu Trọng Sinh.
 
-Mấy tháng trôi qua từ cái ngày Lăng Trọng Sinh Phát hiện ra thiên nhiên ẩn nặc trận pháp, hắn dùng hầu hết thời gian ở bên ngoài kiêu chiến đủ loại yêu thú tu vi từ thấp đến cao trong Thập Tử Sâm Lâm để tu thể. Cuối cùng Lăng Trọng Sinh cũng đã đột phá tầng 8 Kim Cương Thể.
+Mấy tháng trôi qua từ cái ngày Lăng Trọng Sinh Phát hiện ra thiên nhiên ẩn nặc trận pháp, hắn dùng hầu hết thời gian ở bên ngoài kiêu chiến đủ loại yêu thú tu vi từ thấp đến cao trong Thập Tử Sâm Lâm để tu thể. Cuối cùng Lăng Trọng Sinh cũng đã đột phá tầng 8 Kim Cương Thể. Thân thể rắn chắc đến mức dưới Hoá Kiếp cảnh yêu thú không để tổn thương. 
 
-Sát Thần Ám Đạo Quyết cùng Sát Thần Luyện Thức Quyết đạt Kết Đan kỳ đỉnh phòng, Sát Thần Cực Thể Quyết cảnh giới đầu tiên - Kim Cương Thể tầng 8. Thân thể rắn chắc đến mức dưới Hoá Kiếp cảnh yêu thú không để tổn thương. Với thực lực này, hắn dùng cả ba ám ảnh là đã có thể đối phó với đầu Miên Hoa Sư Vương bất phân thắng bại. Nếu tính cả bản thể vào, chắc chắn Miên Hoa Sư Vương phải nhận lại thất bại.
+Sát Thần Ám Đạo Quyết cùng Sát Thần Luyện Thức Quyết đạt Kết Đan kỳ đỉnh phòng, Sát Thần Cực Thể Quyết cảnh giới đầu tiên - Kim Cương Thể tầng 8. Với thực lực này, hắn dùng cả ba ám ảnh là đã có thể đối phó với đầu Miên Hoa Sư Vương bất phân thắng bại. Nếu tính cả bản thể vào, chắc chắn Miên Hoa Sư Vương phải nhận lại thất bại.
 
 Nếu Lăng Trọng Sinh thực sự muốn lấy mạng Miên Hoa Sư Vương phải nói là dễ như lấy đồ trong túi, hắn chỉ cần nhân lúc Miên Hoa Sư Vương giao đấu ba ám ảnh mà ra tay toàn lực đánh lén một kích đắt thủ.
 
-Khi không giết đi một đại yêu thú trong Thập Tử Sâm Lâm, điều này sẽ ảnh hướng lớn đến khu rừng, không phải là việc hắn nên làm, huống chi yêu thú cùng hắn có ân lại không oán. Từ khi bắt đầu giao đấu, yêu thú đã tỏ thái độ kiêng kỵ hắn không thôi, hắn cũng thông qua ám ảnh nói cho Miên Hoa Sư Vương rằng mình chỉ muốn thử thực lực của bản thân, không có ác ý.
+Nếu giết đi một đại yêu thú trong Thập Tử Sâm Lâm, điều này sẽ ảnh hướng lớn đến khu rừng, không phải là việc hắn nên làm, huống chi yêu thú cùng hắn có ân lại không oán. Từ khi bắt đầu giao đấu, yêu thú đã tỏ thái độ kiêng kỵ hắn không thôi, hắn cũng thông qua ám ảnh nói cho Miên Hoa Sư Vương rằng mình chỉ muốn thử thực lực của bản thân, không có ác ý.
 
 Càng kinh lịch nhiều, điểm yếu của Lăng Trọng Sinh dần hiển lộ, đó chính là kiến thức. Nếu hắn sớm biết Miên Hoa Sư Vương ngoài hoả hệ sóng công kích còn có thể kết hợp cuồn phong lốc xoáy trong chóp mắt hạ thủ thì sẽ không ăn nhiều thua thiệt.
 
-Thế nên Lăng Trọng Sinh thông qua mấy tháng luyện thể cũng thu thập được vô số đồ đạc từ những người xấu số bỏ mạng để lại trong Thập Tử Sâm Lâm. Hắn xem thầy chỉ là một số tầm thường đồ vật cùng pháp bảo, pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
+Thế nên Lăng Trọng Sinh thông qua mấy tháng luyện thể cũng cố gắng thu thập được vô số đồ đạc từ những người xấu số bỏ mạng để lại trong Thập Tử Sâm Lâm. Đa số chỉ là tầm thường đồ vật cùng pháp bảo, pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
+
+Hắn tìm một vách đá to lớn lại vô cùng vắng vẻ, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, tích trữ những thứ đã thu thập được. Mọi thứ được hắn sắp xếp ngăn nắp, bày trên các bàn đá tự chế, theo những khu vực khác nhau. 
 
 Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, Bát Đại Phụ Trợ cho tu luyện giả cùng mấy quyển sinh thời nhật ký, tâm đắc,...
 
