@@ -70,7 +70,9 @@ Càng kinh lịch nhiều, điểm yếu của Lăng Trọng Sinh dần hiển l
 
 Thế nên Lăng Trọng Sinh thông qua mấy tháng luyện thể cũng cố gắng thu thập được vô số đồ đạc từ những người xấu số bỏ mạng để lại trong Thập Tử Sâm Lâm. Đa số chỉ là tầm thường đồ vật cùng pháp bảo, pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
 
-Hắn tìm một vách đá to lớn lại vô cùng vắng vẻ, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, tích trữ những thứ đã thu thập được. Mọi thứ được hắn sắp xếp ngăn nắp, bày trên các bàn đá tự chế, theo những khu vực khác nhau. 
+Ở địa phương cách thiên nhiên ẩn nặc trận vài chục dặm, linh khí nghèo nàng, có một cái hồ rộng chừng chục mét, bên cạnh là một ngọn núi nhỏ, cực kì vắng vẻ.  
+
+Lăng Trọng Sinh tìm một vách đá to lớn, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, tích trữ những thứ đã thu thập được. Mọi thứ được hắn sắp xếp ngăn nắp, bày trên các bàn đá tự chế, theo những khu vực khác nhau. 
 
 Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, Bát Đại Phụ Trợ cho tu luyện giả cùng mấy quyển sinh thời nhật ký, tâm đắc,...
 
