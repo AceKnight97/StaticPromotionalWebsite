@@ -68,11 +68,17 @@ Nếu giết đi một đại yêu thú trong Thập Tử Sâm Lâm, điều nà
 
 Càng kinh lịch nhiều, điểm yếu của Lăng Trọng Sinh dần hiển lộ, đó chính là kiến thức. Nếu hắn sớm biết Miên Hoa Sư Vương ngoài hoả hệ sóng công kích còn có thể kết hợp cuồn phong lốc xoáy trong chóp mắt hạ thủ thì sẽ không ăn nhiều thua thiệt.
 
-Thế nên Lăng Trọng Sinh thông qua mấy tháng luyện thể cũng cố gắng thu thập được vô số đồ đạc từ những người xấu số bỏ mạng để lại trong Thập Tử Sâm Lâm. Đa số chỉ là tầm thường đồ vật cùng pháp bảo, pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
-
 Ở địa phương cách thiên nhiên ẩn nặc trận vài chục dặm, linh khí nghèo nàng, có một cái hồ rộng chừng chục mét, bên cạnh là một ngọn núi nhỏ, cực kì vắng vẻ.  
 
-Lăng Trọng Sinh tìm một vách đá to lớn, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, tích trữ những thứ đã thu thập được. Mọi thứ được hắn sắp xếp ngăn nắp, bày trên các bàn đá tự chế, theo những khu vực khác nhau. 
+Lăng Trọng Sinh tìm một vách đá to lớn, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, được chia thành nhiều gian phòng khác nhau, tích trữ những thứ đã thu thập được. Những việc trên là không thể đối với một đứa trẻ mới hơn ba năm tuổi, nhưng ngược lại đối với một tu sĩ Kết Đan cảnh mà nói đó chỉ là việc khua tay nhấc chân. Lăng Trọng Sinh điều động thần niệm di chuyển đồ vật đâu vào đó, chưa kể đến các ám ảnh cường hãn không thôi.
+
+Có cả bồ đoàn để tu luyện, vải lụa thì may thành niệm và thảm, làm sẵn một chiếc giường để nghỉ ngơi.
+
+Mọi thứ được hắn sắp xếp ngăn nắp, bày tất cả hữu ích lên trên các bàn đá tự chế, thần thái vô cùng tự đắc. Đây sẽ trở thành cái "Hang Dơi" của Lăng Trọng Sinh hắn a.
+
+Thông qua mấy tháng tích lũy thu thập được vô số đồ đạc bị bỏ lại trong Thập Tử Sâm Lâm. Đa số chỉ là tầm thường đồ vật, tàn phá vũ khí cùng pháp bảo. Một pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
+
+Lướt qua một lượt các món đồ trên bàn, hơn mười cái giới chỉ, hai mươi cái túi trữ vật, một số tàn phá vũ khí,.. 
 
 Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, Bát Đại Phụ Trợ cho tu luyện giả cùng mấy quyển sinh thời nhật ký, tâm đắc,...
 
