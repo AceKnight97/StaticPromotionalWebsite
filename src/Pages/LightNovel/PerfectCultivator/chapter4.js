@@ -78,11 +78,17 @@ Mọi thứ được hắn sắp xếp ngăn nắp, bày tất cả hữu ích l
 
 Thông qua mấy tháng tích lũy thu thập được vô số đồ đạc bị bỏ lại trong Thập Tử Sâm Lâm. Đa số chỉ là tầm thường đồ vật, tàn phá vũ khí cùng pháp bảo. Một pháp bảo có thể nói là không tệ nhưng còn thua xa nhục thân hắn, đối với hắn đều vô dụng.
 
-Lướt qua một lượt các món đồ trên bàn, hơn mười cái giới chỉ, hai mươi cái túi trữ vật, một số tàn phá vũ khí,.. 
+Lướt qua một lượt các món đồ trên bàn, hơn tám cái giới chỉ, mười sáu cái túi trữ vật, một số tàn phá vũ khí,.. 
 
-Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, Bát Đại Phụ Trợ cho tu luyện giả cùng mấy quyển sinh thời nhật ký, tâm đắc,...
+Túi trữ vật và giới chỉ là những thứ mà tu sĩ dùng để chứa đồ đạc, chúng có thể chứa đựng được không gian to lớn hơn bản thân gáp nhiều lần tùy theo đẳng cấp. 
 
+Ở Hòa Sinh Trấn, Lăng Trọng Sình còn chưa được nhìn thấy qua một cái túi trữ vật, thế nhưng hắn biết những thứ này rất có giá trị. Túi trữ vật đa số các tu sĩ bình thường đều có thể có, còn giới chỉ thì lại là một đằng cấp khác.
 
+Nghe nói chỉ có một số gia tộc giàu có, có thể lực, ở đó những người quan trọng hay thiên tài trọng tâm bồi dưỡng đệ tử thì mới có tư cách nhận lấy một chiếc giới chữ. 
+
+Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, phụ trợ tu luyện giả thư lục cùng mấy quyển sinh thời nhật ký, tâm đắc,...
+
+Thời gian ban ngày hắn rất rãnh a, có thể mang những quyển sách này về nhà để đọc
 
 
 
