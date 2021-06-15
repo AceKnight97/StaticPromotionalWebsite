@@ -86,9 +86,10 @@ Túi trữ vật và giới chỉ là những thứ mà tu sĩ dùng để chứ
 
 Nghe nói chỉ có một số gia tộc giàu có, có thể lực, ở đó những người quan trọng hay thiên tài trọng tâm bồi dưỡng đệ tử thì mới có tư cách nhận lấy một chiếc giới chữ. 
 
+Thần niệm vừa động, cấm chế trong từng chiếc giới chỉ nhưng giấy nhẹ nhàng bị xé rách rơi. Từng đống lớn, đóng lớn tinh thạch hiện ra trong thần niệm của hắn, 
+
 Hắn chú tâm nhất vào các quyền thư lục, tư liệu có thể nghiêm cứu cùng học tập. Trong đó có mấy quyển giới thiệu sơ lược về La Thiên Đại Lục, Tu Chân Giới, các cảnh giới tu luyện, phụ trợ tu luyện giả thư lục cùng mấy quyển sinh thời nhật ký, tâm đắc,...
 
-Thời gian ban ngày hắn rất rãnh a, có thể mang những quyển sách này về nhà để đọc
 
 
 
