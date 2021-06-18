@@ -70,7 +70,7 @@ Càng kinh lịch nhiều, điểm yếu của Lăng Trọng Sinh dần hiển l
 
 Ở địa phương cách thiên nhiên ẩn nặc trận vài chục dặm, linh khí nghèo nàng, có một cái hồ rộng chừng chục mét, bên cạnh là một ngọn núi nhỏ, cực kì vắng vẻ.  
 
-Lăng Trọng Sinh tìm một vách đá to lớn, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, được chia thành nhiều gian phòng khác nhau, tích trữ những thứ đã thu thập được. Những việc trên là không thể đối với một đứa trẻ mới hơn ba năm tuổi, nhưng ngược lại đối với một tu sĩ Kết Đan cảnh mà nói đó chỉ là việc khua tay nhấc chân. Lăng Trọng Sinh điều động thần niệm di chuyển đồ vật đâu vào đó, chưa kể đến các ám ảnh cường hãn không thôi.
+Lăng Trọng Sinh tìm một vách đá to lớn, đào cho mình một cái hang ổ chừng hơn ba mươi mét vuông, được chia thành nhiều gian phòng khác nhau, tích trữ những thứ đã thu thập được. Những việc trên là không thể đối với một đứa trẻ mới hơn ba năm tuổi, nhưng ngược lại đối với một tu sĩ Kết Đan cảnh mà nói đó chỉ là việc nâng tay nhấc chân. Lăng Trọng Sinh điều động thần niệm di chuyển đồ vật đâu vào đó, chưa kể đến các ám ảnh cường hãn không thôi.
 
 Có cả bồ đoàn để tu luyện, vải lụa thì may thành niệm và thảm, làm sẵn một chiếc giường để nghỉ ngơi.
 
