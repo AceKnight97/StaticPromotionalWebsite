@@ -6,7 +6,7 @@ import { Button } from 'antd';
 
 const InfoRow = (props) => {
   const {
-    className, title, icon, type,
+    className, title, icon, type, link,
   } = props;
   return (
     <div className={classnames('info-row-wrapper', className)}>
@@ -15,13 +15,16 @@ const InfoRow = (props) => {
       </div>
       {type === 'LINK'
         ? (
-          <Button
-            onClick={() => window.open(title, '')}
-            type='link'
-            className='info-row-title'
-          >
+          <a href={link} target=' ' className='info-row-title'>
             {title}
-          </Button>
+          </a>
+      // <Button
+      //   onClick={() => window.open(title, '')}
+      //   type='link'
+      //   className='info-row-title'
+      // >
+      //   {title}
+      // </Button>
         )
         : (
           <div className='info-row-title'>
@@ -36,6 +39,7 @@ InfoRow.defaultProps = {
   title: '',
   icon: '',
   type: '',
+  link: '',
 };
 InfoRow.propTypes = {
   className: PropTypes.string,
@@ -45,6 +49,7 @@ InfoRow.propTypes = {
     PropTypes.shape(),
   ]),
   type: PropTypes.string,
+  link: PropTypes.string,
 };
 
 export default InfoRow;

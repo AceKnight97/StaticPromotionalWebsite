@@ -20,7 +20,8 @@ const MemberCard = (props) => {
       <img src={icon} className='member-card-icon' alt='Avatar img' />
 
       <div className='member-card-name-dob'>
-        <span>{`${name} - ${dob}`}</span>
+        <span className='b'>{name}</span>
+        <span>{dob}</span>
       </div>
     </div>
   );

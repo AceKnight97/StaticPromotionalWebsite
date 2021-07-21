@@ -120,3 +120,12 @@
   width: 120px;
   border-radius: 100px;
 }
+.w-max-content {
+  width: max-content;
+}
+.w-h {
+  &-32 {
+    height: 32px;
+    width: 32px;
+  }
+}

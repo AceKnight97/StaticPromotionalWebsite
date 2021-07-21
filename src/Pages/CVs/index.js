@@ -6,7 +6,7 @@ import { useMergeState } from '../../Helpers/customHooks';
 
 import CVInformation from './Layout/cvInformation';
 import CVDetails from './Layout/cvDetails';
-import DetailsInfo from './Layout/detailsInfo';
+import Portfolio from './Portfolio';
 import { PAGE_MANAGER } from '../../Constants';
 
 const MyCV2 = () => {
@@ -36,7 +36,7 @@ const MyCV2 = () => {
 
         {
           isShowDetails
-            ? <DetailsInfo />
+            ? <Portfolio />
             : (
               <>
                 <CVInformation />
@@ -49,17 +49,17 @@ const MyCV2 = () => {
 
       <Button
         type='ghost'
-        className='back-btn-cv'
+        className='cv-btn-back'
         onClick={onClickBack}
       >
         <ArrowLeftOutlined />
       </Button>
 
       {
-        isShowDetails ? null : (
+        !isShowDetails && (
           <Button
             type='ghost'
-            className='details-btn-cv'
+            className='cv-btn-details'
             onClick={onClickDetailCV}
           >
             <ArrowRightOutlined />

@@ -45,8 +45,9 @@ const CVInformation = () => {
       },
       {
         icon: <GlobalOutlined />,
-        title: 'https://aceknight97.github.io/staticpromotionalwebsite',
+        title: 'Website',
         type: 'LINK',
+        link: 'https://aceknight97.github.io/staticpromotionalwebsite',
       },
       {
         icon: <EnvironmentOutlined />,
@@ -61,6 +62,7 @@ const CVInformation = () => {
           icon={x.icon}
           title={x.title}
           type={x?.type}
+          link={x?.link || ''}
         />
       ))
     );
@@ -101,16 +103,13 @@ const CVInformation = () => {
         <span>Social</span>
       </div>
 
-      {_.map(SOCICAL_DATA, (x, i) => (
-        <Button
-          key={i}
-          onClick={() => window.open(x, '')}
-          type='link'
-          className='my-cv-body-link'
-        >
-          {x}
-        </Button>
-      ))}
+      <div className='f-col w-max-content'>
+        {_.map(SOCICAL_DATA, (x, i) => (
+          <a href={x.value} key={i} target=' ' className='my-cv-body-social'>
+            {x.title}
+          </a>
+        ))}
+      </div>
     </div>
   );
 

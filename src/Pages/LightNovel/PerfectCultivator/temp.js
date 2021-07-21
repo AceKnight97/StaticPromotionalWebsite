@@ -45,8 +45,5 @@ VI. Feelings and thinkings:
 
 
 
-
-
-
 `;
 export default StartAt21June;

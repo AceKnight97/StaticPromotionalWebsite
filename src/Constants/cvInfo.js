@@ -15,8 +15,14 @@ import mdm from '../Images/Pages/CVs/mdm.svg';
 import biocare from '../Images/Pages/CVs/biocare.svg';
 
 export const SOCICAL_DATA = [
-  'https://www.facebook.com/profile.php?id=100015087697713',
-  'https://www.linkedin.com/in/tri%E1%BA%BFt-tr%C6%B0%C6%A1ng-thanh-89a92b161/',
+  {
+    title: 'Facebook',
+    value: 'https://www.facebook.com/profile.php?id=100015087697713',
+  },
+  {
+    title: 'LinkedIn',
+    value: 'https://www.linkedin.com/in/tri%E1%BA%BFt-tr%C6%B0%C6%A1ng-thanh-89a92b161/',
+  },
 ];
 export const INDUSTRY_KNOWLEDGE_DATA = [
   'Web-App Develop',
