@@ -9,7 +9,7 @@ import CVDetails from './Layout/cvDetails';
 import Portfolio from './Portfolio';
 import { PAGE_MANAGER } from '../../Constants';
 
-const MyCV2 = () => {
+const MyCV = () => {
   const history = useHistory();
   const [state, setState] = useMergeState({
     isShowDetails: false,
@@ -69,8 +69,8 @@ const MyCV2 = () => {
     </div>
   );
 };
-MyCV2.defaultProps = {
+MyCV.defaultProps = {
 };
-MyCV2.propTypes = {
+MyCV.propTypes = {
 };
-export default MyCV2;
+export default MyCV;

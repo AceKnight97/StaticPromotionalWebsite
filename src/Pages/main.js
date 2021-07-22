@@ -1,17 +1,14 @@
-import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import {
-  BrowserRouter as Router, Switch, Route, Redirect,
+  BrowserRouter as Router, Redirect, Route, Switch,
 } from 'react-router-dom';
-
-import reloadPageRequest from '../Redux/Actions/reload';
-
 import { PAGE_MANAGER } from '../Constants';
-
+import reloadPageRequest from '../Redux/Actions/reload';
 import Home from './Home';
-import MyCV from './CVs';
 import LightNovel from './LightNovel';
+import MyCV from './MyCV';
 
 const Main = (props) => {
   useEffect(() => {

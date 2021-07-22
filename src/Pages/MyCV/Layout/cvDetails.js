@@ -72,7 +72,7 @@ const CVDetails = () => {
 
       <CVExp
         data={{
-          name: "Those projects below are my part of the company I've been working for",
+          name: "The projects that I've been working:",
         }}
       />
 
