@@ -53,6 +53,7 @@ const MyCV = () => {
         onClick={onClickBack}
       >
         <ArrowLeftOutlined />
+        Back
       </Button>
 
       {
@@ -61,7 +62,9 @@ const MyCV = () => {
             type='ghost'
             className='cv-btn-details'
             onClick={onClickDetailCV}
+            // icon={}
           >
+            More informtion
             <ArrowRightOutlined />
           </Button>
         )

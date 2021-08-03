@@ -1,14 +1,11 @@
-import React from 'react';
 import _ from 'lodash';
-
+import React from 'react';
+import {
+  EDUCATION_DATA, EXPERIENCE_DATA, OTHER_SKILLS_DATA, SKILLS_DATA, TEAM_PRODUCTS,
+} from '../../../Constants/cvInfo';
 import BodyTopic from './bodyTopic';
 import CVExp from './cvExp';
 import TeamProduct from './teamProduct';
-
-import {
-  EXPERIENCE_DATA, EDUCATION_DATA, SKILLS_DATA, OTHER_SKILLS_DATA,
-  TEAM_PRODUCTS,
-} from '../../../Constants/cvInfo';
 
 const CVDetails = () => {
   const showExperience = () => (

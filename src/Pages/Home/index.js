@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { PAGE_MANAGER } from '../../Constants';
 import { HOME_HEADER } from '../../Constants/home';
 import { useMergeState } from '../../Helpers/customHooks';
@@ -13,9 +14,17 @@ const {
 } = PAGE_MANAGER;
 
 const Home = () => {
+  const location = useLocation();
   const [state, setState] = useMergeState({
     current: HOME,
   });
+  useEffect(() => {
+    console.log({ location });
+    const { current } = location?.state || {};
+    if (current) {
+      setState({ current });
+    }
+  }, []);
 
   const { current } = state;
 

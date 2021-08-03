@@ -111,7 +111,7 @@ export const TEAM_PRODUCTS = [
   {
     name: 'Biocare Cardiac',
     icon: cardiac,
-    link: 'https://alpha.cardiac.bioflux.io',
+    link: 'https://staging.cardiac.biotricity.com/',
   },
   {
     name: 'Nano Dashboard',
