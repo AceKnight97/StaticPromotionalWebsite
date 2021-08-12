@@ -13,9 +13,13 @@ import MyCV from './MyCV';
 
 const Main = (props) => {
   useEffect(() => {
+    window.onbeforeunload = () => {};
     window.onload = () => {
       props.reloadPageRequest();
     };
+    // window.onload = () => {
+    //   props.reloadPageRequest();
+    // };
   }, []);
   return (
     <main className='div-root'>

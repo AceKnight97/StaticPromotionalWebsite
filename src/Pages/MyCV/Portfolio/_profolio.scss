@@ -24,11 +24,17 @@
       width: 50%;
       padding: 16px;
     }
-
     &-left {
+      // &-icon{
+      //   &-nano{
+
+      //   }
+      // }
     }
     &-right {
       .carousel-root {
+        height: 100%;
+        overflow: auto;
         .slide {
           display: flex;
           justify-content: center;
@@ -43,6 +49,7 @@
           }
         }
         .thumbs-wrapper {
+          margin: 46px 20px 0 20px;
           .thumb.selected,
           .thumb:hover {
             border: 1px solid #5abb3a;

@@ -4,14 +4,15 @@ import _ from 'lodash';
 import Modal from 'antd/lib/modal/Modal';
 import ProjectInfo from '../../../Components/UI/ProjectInfo';
 import { useMergeState } from '../../../Helpers/customHooks';
-import { SAVE_MONEY_APP, BIOACRE_CARDIAC } from './data';
+import { SAVE_MONEY_APP, BIOACRE_CARDIAC, NANO_DASHBOARD } from './data';
 import cloverIc from '../../../Images/Pages/CVs/clover.svg';
 
 const PROJECT_DATA = {
   SMA: 'SMA',
   BCCA: 'BCCA',
+  NANO: 'NANO',
 };
-const { SMA, BCCA } = PROJECT_DATA;
+const { SMA, BCCA, NANO } = PROJECT_DATA;
 
 const Portfolio = () => {
   const [state, setState] = useMergeState({
@@ -29,19 +30,13 @@ const Portfolio = () => {
   const { current, previewImg } = state;
 
   const toggleClickSMA = () => {
-    if (current === SMA) {
-      setState({ current: '' });
-    } else {
-      setState({ current: SMA });
-    }
+    setState({ current: current === SMA ? '' : SMA });
   };
-
   const toggleClickBCCA = () => {
-    if (current === BCCA) {
-      setState({ current: '' });
-    } else {
-      setState({ current: BCCA });
-    }
+    setState({ current: current === BCCA ? '' : BCCA });
+  };
+  const toggleClickNaNo = () => {
+    setState({ current: current === NANO ? '' : NANO });
   };
 
   const renderHeader = () => (
@@ -101,6 +96,12 @@ const Portfolio = () => {
           data={BIOACRE_CARDIAC}
           toggleClick={toggleClickBCCA}
           isShowDetails={current === BCCA}
+        />
+        <ProjectInfo
+          className='mt-24'
+          data={NANO_DASHBOARD}
+          toggleClick={toggleClickNaNo}
+          isShowDetails={current === NANO}
         />
       </div>
 

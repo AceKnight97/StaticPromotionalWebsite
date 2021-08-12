@@ -14,12 +14,12 @@ const ProjectInfo = (props) => {
     data, isShowDetails, toggleClick, className,
   } = props;
   const {
-    icon, title, rows,
+    icon, title, rows, iconClassName,
   } = data;
 
   const renderLeft = () => (
     <div className='project-info-left'>
-      <img src={icon} className='project-info-left-logo' alt=' ' />
+      <img src={icon} className={classnames('project-info-left-logo', iconClassName)} alt=' ' />
 
       <div className='project-info-left-title'>
         <span>{title}</span>
@@ -90,8 +90,7 @@ const ProjectInfo = (props) => {
         className='project-info-toggle-btn'
         onClick={toggleClick}
       >
-        {isShowDetails ? <ArrowLeftOutlined />
-          : <ArrowRightOutlined />}
+        {isShowDetails ? <ArrowLeftOutlined /> : <ArrowRightOutlined />}
       </Button>
     </div>
   );
@@ -107,6 +106,7 @@ ProjectInfo.defaultProps = {
     releaseDate: '',
     description: '',
     rows: [],
+    iconClassName: '',
   },
   toggleClick: () => {},
   isShowDetails: false,
@@ -121,6 +121,7 @@ ProjectInfo.propTypes = {
     releaseDate: PropTypes.string,
     description: PropTypes.string,
     rows: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.shape())),
+    iconClassName: PropTypes.string,
   }),
   toggleClick: PropTypes.func,
   isShowDetails: PropTypes.bool,

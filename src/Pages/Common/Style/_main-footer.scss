@@ -1,17 +1,18 @@
 .main-footer {
   border-top: 1px solid $gray-5;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
 
   width: 100%;
-  height: 140px;
+  // height: 54px;
+  height: max-content;
   padding: 24px 5%;
   .skype {
     display: flex;
     align-items: center;
   }
   .email {
-    margin-left: 24px;
+    margin-left: 12px;
     padding: 0;
     color: unset;
     &:hover {
@@ -23,7 +24,7 @@
   .facebook {
     display: flex;
     align-items: center;
-    margin-top: 12px;
+    margin-left: 36px;
   }
   .footer-icon {
     display: flex;

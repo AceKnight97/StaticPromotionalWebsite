@@ -21,6 +21,8 @@ import bccaIc7 from '../../../Images/Pages/CVs/BCCA/bcca-7.jpg';
 import bccaIc8 from '../../../Images/Pages/CVs/BCCA/bcca-8.jpg';
 import bccaIc9 from '../../../Images/Pages/CVs/BCCA/bcca-9.jpg';
 
+import nanoIc from '../../../Images/Pages/CVs/nano.png';
+
 const SMA_IMAGES = [
   signInImg, detailsImg, journalImg, insightImg, messageImg, profileImg, doneImg,
 ];
@@ -42,7 +44,7 @@ export const SAVE_MONEY_APP = {
       },
       {
         title: '- Type:',
-        value: 'Website.',
+        value: 'Application.',
       },
     ],
     [
@@ -89,7 +91,7 @@ export const BIOACRE_CARDIAC = {
       },
       {
         title: '- Type:',
-        value: 'Application.',
+        value: 'Website.',
       },
     ],
     [
@@ -97,6 +99,36 @@ export const BIOACRE_CARDIAC = {
         title: '- Description:',
         value: `
         The web portal helps clinics to management their paitients including their profiles, health care programs, appointments and reports.
+        `,
+      },
+    ],
+  ],
+  images: BCCA_IMAGES,
+
+};
+
+export const NANO_DASHBOARD = {
+  icon: nanoIc,
+  title: 'Nano Dashboard',
+  iconClassName: '',
+  rows: [
+    [
+      {
+        title: '- Take a look:',
+        value: 'link.',
+        type: 'LINK',
+        link: 'https://nano-dashboard.projects.itrvn.com/',
+      },
+      {
+        title: '- Type:',
+        value: 'Website.',
+      },
+    ],
+    [
+      {
+        title: '- Description:',
+        value: `
+        The web portal helps admint to manage their Hot & Cold machines (Devices), users, machine's models, create replacement for needs.
         `,
       },
     ],
