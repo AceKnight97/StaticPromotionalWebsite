@@ -54,6 +54,9 @@ const Portfolio = () => {
       case BCCA:
         images = BIOACRE_CARDIAC.images;
         break;
+      case NANO:
+        images = NANO_DASHBOARD.images;
+        break;
       default:
         break;
     }

@@ -31,7 +31,7 @@ const MyCV = () => {
   };
 
   return (
-    <div className='my-cv-wrapper'>
+    <div className='my-cv-wrapper custom-scrollbar'>
       <div className='my-cv-main'>
 
         {

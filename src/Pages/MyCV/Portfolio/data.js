@@ -23,12 +23,31 @@ import bccaIc9 from '../../../Images/Pages/CVs/BCCA/bcca-9.jpg';
 
 import nanoIc from '../../../Images/Pages/CVs/nano.png';
 
+import nano1 from '../../../Images/Pages/CVs/NANO/nano-1.jpg';
+import nano2 from '../../../Images/Pages/CVs/NANO/nano-2.jpg';
+import nano3 from '../../../Images/Pages/CVs/NANO/nano-3.jpg';
+import nano4 from '../../../Images/Pages/CVs/NANO/nano-4.jpg';
+import nano5 from '../../../Images/Pages/CVs/NANO/nano-5.jpg';
+import nano6 from '../../../Images/Pages/CVs/NANO/nano-6.jpg';
+import nano7 from '../../../Images/Pages/CVs/NANO/nano-7.jpg';
+import nano8 from '../../../Images/Pages/CVs/NANO/nano-8.jpg';
+import nano9 from '../../../Images/Pages/CVs/NANO/nano-9.jpg';
+import nano10 from '../../../Images/Pages/CVs/NANO/nano-10.jpg';
+import nano11 from '../../../Images/Pages/CVs/NANO/nano-11.jpg';
+import nano12 from '../../../Images/Pages/CVs/NANO/nano-12.jpg';
+import nano13 from '../../../Images/Pages/CVs/NANO/nano-13.jpg';
+import nano14 from '../../../Images/Pages/CVs/NANO/nano-14.jpg';
+import nano15 from '../../../Images/Pages/CVs/NANO/nano-15.jpg';
+
 const SMA_IMAGES = [
   signInImg, detailsImg, journalImg, insightImg, messageImg, profileImg, doneImg,
 ];
 
 const BCCA_IMAGES = [
   bccaIc1, bccaIc2, bccaIc3, bccaIc4, bccaIc5, bccaIc6, bccaIc7, bccaIc8, bccaIc9,
+];
+const NANO_IMAGES = [
+  nano1, nano2, nano3, nano4, nano5, nano6, nano7, nano8, nano9, nano10, nano11, nano12, nano13, nano14, nano15,
 ];
 
 export const SAVE_MONEY_APP = {
@@ -133,6 +152,6 @@ export const NANO_DASHBOARD = {
       },
     ],
   ],
-  images: BCCA_IMAGES,
+  images: NANO_IMAGES,
 
 };
