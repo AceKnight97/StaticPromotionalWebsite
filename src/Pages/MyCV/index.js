@@ -22,8 +22,8 @@ const MyCV = () => {
       setState({ isShowDetails: false });
       return;
     }
-    // history.push(PAGE_MANAGER.HOME);
-    history.goBack();
+    history.push(PAGE_MANAGER.HOME);
+    // history.goBack();
   };
 
   const onClickDetailCV = () => {
@@ -53,7 +53,7 @@ const MyCV = () => {
         onClick={onClickBack}
       >
         <ArrowLeftOutlined />
-        Back
+        {isShowDetails ? 'Back' : 'Home'}
       </Button>
 
       {
