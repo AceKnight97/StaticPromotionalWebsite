@@ -77,7 +77,7 @@ export const SAVE_MONEY_APP = {
         type: 'CUSTOM',
         children: () => (
           <Link to={{
-            pathname: '/staticpromotionalwebsite',
+            pathname: '/home',
             state: { current: PAGE_MANAGER.CONTACT },
           }}
           >

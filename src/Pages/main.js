@@ -25,11 +25,11 @@ const Main = (props) => {
     <main className='div-root'>
       <Router>
         <Switch>
-          <Route path='/my-cv' name='My CV' component={MyCV} />
-          <Route path='/staticpromotionalwebsite' name='Home' component={Home} />
+          <Route path='/staticpromotionalwebsite' name='My CV' component={MyCV} />
+          <Route path='/home' name='Home' component={Home} />
           <Route path='/light-novel' name='My Light Novel' component={LightNovel} />
 
-          <Redirect path='/' to={{ pathname: '/my-cv' }} />
+          <Redirect path='/' to={{ pathname: '/staticpromotionalwebsite' }} />
         </Switch>
       </Router>
     </main>
