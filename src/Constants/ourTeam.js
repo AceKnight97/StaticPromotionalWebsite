@@ -47,7 +47,7 @@ export const MEMBER_INFO = [
     phone: '+84 819 541 897',
     others: 'Blender 3D, Figma',
     isExtra: true,
-    url: '/my-cv',
+    url: '/staticpromotionalwebsite/my-cv',
   },
   {
     icon: leehuuly,
