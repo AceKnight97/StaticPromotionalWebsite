@@ -16,7 +16,7 @@ export const PAGE_MANAGER = {
   HOME_PAGE: 'https://github.com/AceKnight97/staticpromotionalwebsite',
   HOME: '/staticpromotionalwebsite',
   OUR_TEAM: '/our-team',
-  MY_CV: '/staticpromotionalwebsite/my-cv',
+  MY_CV: '/my-cv',
   BUSINESS: '/business',
   CONTACT: '/contact',
   LIGHT_NOVEL: '/light-novel',
