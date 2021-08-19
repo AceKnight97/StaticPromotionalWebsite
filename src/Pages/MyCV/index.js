@@ -64,7 +64,7 @@ const MyCV = () => {
             onClick={onClickDetailCV}
             // icon={}
           >
-            More informtion
+            More information
             <ArrowRightOutlined />
           </Button>
         )
