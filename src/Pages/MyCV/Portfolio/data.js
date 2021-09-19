@@ -94,7 +94,7 @@ export const SAVE_MONEY_APP = {
     ],
   ],
   images: SMA_IMAGES,
-// iconBgColor: '#5abb3a'
+  // iconBgColor: '#5abb3a'
 };
 
 export const BIOACRE_CARDIAC = {
@@ -117,7 +117,10 @@ export const BIOACRE_CARDIAC = {
       {
         title: '- Description:',
         value: `
-        The web portal helps clinics to management their paitients including their profiles, health care programs, appointments and reports.
+        I developed and continue to maintain the Biocare Cardiac website. 
+        The web portal is designed to help clinics manage patient profiles, book appointments, and enable virtual consultation as appropriate, record medical procedures and prescriptions for each patient and create detailed related reports. 
+        It is the longest and most complex project I have been engaged with in my current position. 
+        The website can be found at this link.
         `,
       },
     ],
@@ -147,7 +150,8 @@ export const NANO_DASHBOARD = {
       {
         title: '- Description:',
         value: `
-        The web portal helps admint to manage their Hot & Cold machines (Devices), users, machine's models, create replacement for needs.
+        The web portal helps admin to manage their Hot & Cold machines (Devices), users, machine's models, creating replacements for needs. 
+        It also supports filter, searching, creating and edit features for each tabs.
         `,
       },
     ],
@@ -155,3 +159,14 @@ export const NANO_DASHBOARD = {
   images: NANO_IMAGES,
 
 };
+
+const temp = `This web portal is the longest project I've ever done and still doing it now. I also coded the first line of the project. 
+        It helps clinics to management their patients including their profiles, appointments, health care programs and reports.
+        Each patient may have multiple health care programs which contains the patient basic informartion such as: first name, last name, email, address,... 
+        and history and current of their sickness information in order to clinic nurse and physician to take care of them. 
+        Clinic nurse uses the web portal to record the patient test result an clinic physicician gives medication prescription base on records.
+        The patient and clinic users can also have virtual or in-person appointment by booking appointment on the web portal. 
+        In the virual appointment, they have video call supported as a feature of the web portal. In-person appointment, patients go to the nearest clinic that was registered.
+        Biocare cardiac has three kinds of report: Notification, Monthly and End Of Use Report. Notification report is generated when notification setting is triggered.
+        For example: patient has not taken medication for 2 days or gotten low blood presure for 3 days consectively.
+`;

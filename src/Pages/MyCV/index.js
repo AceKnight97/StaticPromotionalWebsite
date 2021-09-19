@@ -62,7 +62,7 @@ const MyCV = () => {
             type='ghost'
             className='cv-btn-details'
             onClick={onClickDetailCV}
-            // icon={}
+          // icon={}
           >
             More information
             <ArrowRightOutlined />

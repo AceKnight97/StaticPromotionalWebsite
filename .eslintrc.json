@@ -94,7 +94,8 @@
       {
         "devDependencies": ["**/webpack.*.js"]
       }
-    ]
+    ],
+    "linebreak-style": ["error", "windows"]
   },
   "extends": "airbnb"
 }
