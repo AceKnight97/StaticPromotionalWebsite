@@ -25,8 +25,8 @@ const Main = (props) => {
     <main className='div-root'>
       <Router>
         <Switch>
-          <Route path='/staticpromotionalwebsite' name='My CV' component={MyCV} />
-          <Route path='/home' name='Home' component={Home} />
+          <Route path='/my-cy' name='My CV' component={MyCV} />
+          <Route path='/staticpromotionalwebsite' name='Home' component={Home} />
           <Route path='/light-novel' name='My Light Novel' component={LightNovel} />
 
           <Redirect path='/' to={{ pathname: '/staticpromotionalwebsite' }} />
